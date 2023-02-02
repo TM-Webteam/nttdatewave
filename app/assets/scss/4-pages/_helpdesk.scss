@@ -1,0 +1,40 @@
+/*
+  ----------------
+  helpdesk
+  ----------------
+*/
+
+.helpdesk {
+
+  .action {
+    &__box {
+      width: calc(100% / 5 - 20px);
+      text-align: center;
+      @media #{$sp} {
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 15px;
+      }
+      &--img {
+        margin: 0 auto 40px;
+        @media #{$sp} {
+          margin: 0 auto 20px;
+        }
+        img {
+          max-width: none;
+          width: auto;
+          height: 70px;
+          @media #{$sp} {
+            height: 50px;
+          }
+        }
+      }
+      &--txt {
+        font-size: 20px;
+        @media #{$sp} {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,238 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="column">
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave">お役立ちコラム</h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">PCやITインフラの管理業務に関するお役立ち情報をお届けするコラムです。</div>
+    </div>
+  </section>
+
+  <section class="sort">
+		<div class="containers">
+      <div class="search">
+        <form action="" class="search__form">
+          <input class="search__input" type="search" placeholder="キーワードから探す">
+          <button class="search__btn" type="submit"><img src="/assets/img/common/icon-search.svg"></button>
+        </form>
+      </div>
+			<div class="flex inherit">
+				<a href="#" class="sort__box">カテゴリ名が入ります</a>
+				<a href="#" class="sort__box">カテゴリ名</a>
+        <a href="#" class="sort__box">カテゴリ名が入り</a>
+				<a href="#" class="sort__box">カテゴリ名が入りますカテ</a>
+        <a href="#" class="sort__box">カテゴリ名が入ります</a>
+        <a href="#" class="sort__box">カテゴ</a>
+      </div>
+		</div>
+	</section>
+
+  <section class="latest bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">最新コラム</h2>
+      <div class="flex">
+        <a href="#" class="flex card fadein">
+          <div class="card__ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+          <div class="card__img"><img src="/assets/img/column/img01.jpg" alt=""></div>
+          <div class="card__box">
+            <div class="cat">カテゴリ名</div>
+            <div class="card__box--txt">コラムリード文が入ります。コラムリード文が入ります。コラムリード文が入ります。コラムリード文が入ります。</div>
+            <div class="card__box--time"><time>2021.6.9</time></div>
+          </div>
+        </a>
+        <a href="#" class="flex card fadein">
+          <div class="card__ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+          <div class="card__img"><img src="/assets/img/column/img02.jpg" alt=""></div>
+          <div class="card__box">
+            <div class="cat">カテゴリ名</div>
+            <div class="card__box--txt">コラムリード文が入ります。コラムリード文が入ります。コラムリード文が入ります。コラムリード文が入ります。</div>
+            <div class="card__box--time"><time>2021.6.9</time></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="containers">
+
+      <ul class="flex grid__card">
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img03.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img04.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img05.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img06.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img07.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img08.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img09.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img10.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img11.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img12.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img13.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+        <li>
+          <a href="/column/single/">
+            <div class="grid__card--img"><img src="/assets/img/column/img14.jpg" alt=""></div>
+            <div class="flex fS">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴ</span>
+            </div>
+            <div class="grid__card--ttl">コラムタイトルが入りますコラムタイトルが入りますコラムタイトルが入ります</div>
+            <span class="grid__card--time"><time>2021.03.16</time></span>
+          </a>
+        </li>
+      </ul>
+
+      <nav class="pagination">
+        <div class="nav-links">
+          <a class="prev page-numbers" href="#"><span></span></a>
+          <a class="page-numbers" href="#">1</a>
+          <span class="page-numbers current">2</span>
+          <a class="page-numbers" href="#">3</a>
+          <a class="next page-numbers" href="#"><span></span></a>
+        </div>
+      </nav>
+
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>お役立ちコラム</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

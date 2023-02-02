@@ -1,0 +1,28 @@
+/*
+  ----------------
+  itil
+  ----------------
+*/
+
+.itil {
+
+  .group .wrap .more {
+    margin-top: 30px;
+    width: 350px;
+    font-size: 16px;
+    @media #{$sp} {
+      margin-top: 15px;
+      width: 100%;
+      font-size: 14px;
+    }
+    &::before {
+      width: 25px;
+      height: 25px;
+      @media #{$sp} {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  
+}

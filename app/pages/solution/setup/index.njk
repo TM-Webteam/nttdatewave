@@ -1,0 +1,228 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="setup">
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave">セットアップ／デリバリサービス</h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">お客様固有の環境にセットアップした上でお届けいたします。</div>
+      <a href="/catalog/" class="more bg-o dl"><span>サービス資料ダウンロード</span></a>
+    </div>
+  </section>
+
+  <section class="alternate cube">
+    <div class="containers">
+      <h2 class="ttl-secondary">弊社独自ツールにより初期導入時の作業を自動化し、<br>導入費用を大幅に削減できます。</h2>
+      <ul class="group">
+        <li class="flex aiC">
+          <figure class="group__img" data-aos="fade-right"><img src="/assets/img/solution/setup/img-alternate01.jpg" alt="マスタ環境の作成～検証・評価まで代行"></figure>
+          <summary class="group__box">
+            <div class="group__box--ttl">マスタ環境の作成～検証・評価まで代行</div>
+            <div class="group__box--txt">OSおよびお客様ソフトウェアのコンフィグレーション決定・インストール・各種設定をすべて代行します。</div>
+          </summary>
+        </li>
+        <li class="flex aiC sp-reverse">
+          <summary class="group__box">
+            <div class="group__box--ttl">独自のセットアップ・リカバリシステム</div>
+            <div class="group__box--txt">
+              <ul>
+                <li>PC個別の設定情報を保持するDBと連携して、マスタ環境に最終設定を自動で行うツールをご提供します。（PCごとに搭載ソフトの変更も可能）</li>
+                <li>障害時のリカバリ対応等にも効果を発揮し、時間・費用を削減できます。</li>
+              </ul>
+            </div>
+          </summary>
+          <figure class="group__img" data-aos="fade-left"><img src="/assets/img/solution/setup/img-alternate02.jpg" alt="独自のセットアップ・リカバリシステム"></figure>
+        </li>
+        <li class="flex aiC">
+          <figure class="group__img" data-aos="fade-right"><img src="/assets/img/solution/setup/img-alternate03.jpg" alt="事前キッティング・機器の配送まで一括管理"></figure>
+          <summary class="group__box">
+            <div class="group__box--ttl">事前キッティング・機器の配送まで一括管理</div>
+            <div class="group__box--txt">提供PCのHDDにマスタ環境を組み込んで出荷。また、同梱物の調整や管理シール貼付なども対応可能です。</div>
+          </summary>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="material bg-DB">
+    <div class="containers">
+      <div class="flex item">
+        <figure class="item__img" data-aos="flip-left"><img src="/assets/img/common/img02.png" alt="Wave PC Mateサービス資料"></figure>
+        <summary class="item__box">
+          <div class="item__box--txt">Wave PC Metaのサービス概要、解決できる課題、<br>メリット・効果などがわかる！</div>
+          <div class="item__box--ttl">Wave PC Mateサービス資料</div>
+          <a href="/catalog/" class="more bg-o dl"><span>資料ダウンロードはこちら</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="meritConts">
+    <div class="containers">
+      <h2 class="ttl-secondary">導入効果・メリット</h2>
+      <div class="lead">Wave PC Mate の標準サービスは、月額サービス料金のみ企業のITインフラ管理をワンストップでサポート。<br>コスト削減や運用負荷軽減など多くのメリットがあります。</div>
+      <ul class="flex">
+        <li class="card fadein">
+          <div class="card__ttl">コスト削減・ファイナンスに</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit01.svg" alt="コスト削減・ファイナンスに"></figure>
+            <ul class="card__box--txt">
+              <li>PC運用全般に渡る質の高いサービスの提供により、PC運用コスト削減</li>
+              <li>月額定額制で明確なコスト管理を実現</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">システム管理者の運用負荷軽減</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit02.svg" alt="システム管理者の運用負荷軽減"></figure>
+            <ul class="card__box--txt">
+              <li>各種インシデントの管理・分析等は弊社ヘルプデスクが対応</li>
+              <li>ウイルス対策、パッチ適用等社内のセキュリティレベルを担保</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">安心・快適なオフィス環境</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit03.svg" alt="安心・快適なオフィス環境"></figure>
+            <ul class="card__box--txt">
+              <li>各種問合せや障害連絡等の窓口を一元化し、経験豊富なスタッフが対応</li>
+              <li>オペレータが障害復旧支援や対処方法をリモートにて支援</li>
+            </ul>
+          </summary>
+        </li>
+      </ul>
+      <a href="/merit/" class="more">全ての導入効果・メリットを見る</a>
+    </div>
+  </section>
+
+  <section class="caseConts bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateの導入事例</h2>
+      <div class="flex">
+        <div class="wrap fadein">
+          <ul class="flex fS group">
+            <li class="cat">サービス</li>
+            <li class="cat">60拠点</li>
+            <li class="cat">2,300台</li>
+          </ul>
+          <a href="/case/single/" class="flex card">
+            <figure class="card__img"><img src="/assets/img/common/img-caseConts01.jpg" alt=""></figure>
+            <summary class="card__box">
+              <div class="card__box--ttl">事例タイトルが入ります。事例タイトルが入ります。事例タイトルが入ります。</div>
+              <div class="card__box--company">●●株式会社</div>
+            </summary>
+          </a>
+        </div>
+        <div class="wrap fadein">
+          <ul class="flex fS group">
+            <li class="cat">サービス</li>
+            <li class="cat">60拠点</li>
+            <li class="cat">2,300台</li>
+          </ul>
+          <a href="/case/single/" class="flex card">
+            <figure class="card__img"><img src="/assets/img/common/img-caseConts02.jpg" alt=""></figure>
+            <summary class="card__box">
+              <div class="card__box--ttl">事例タイトルが入ります。事例タイトルが入ります。事例タイトルが入ります。</div>
+              <div class="card__box--company">●●株式会社</div>
+            </summary>
+          </a>
+        </div>
+      </div>
+      <a href="/case/" class="more">導入事例を見る</a>
+    </div>
+  </section>
+
+  <section class="supportConts">
+    <div class="containers">
+      <h2 class="ttl-secondary">お客様にお手間をかけることなく<br>スムーズな導入をサポートいたします。</h2>
+      <figure class="supportConts__img fadein">
+        <img src="/assets/img/common/img-flow.png" alt="お客様にお手間をかけることなくスムーズな導入をサポートいたします。" class="pc-only">
+        <img src="/assets/img/common/img-flow-sp.png" alt="お客様にお手間をかけることなくスムーズな導入をサポートいたします。" class="sp-only">
+      </figure>
+      <div class="lead">まず、<span class="marker">お客様システムへの適合性診断と、効果的に導入いただくための<br class="pc-only">コンサルティングを無料で実施</span>させていただきます。お気軽にお問合せ下さい。</div>
+      <a href="/contact/" class="more bg-o mail"><span>お問合せ・お見積りはこちら（無料）</span></a>
+    </div>
+  </section>
+
+  <section class="serviceConts bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateのサービス内容</h2>
+      <div class="flex">
+        <a href="/solution/service/" class="card fadein">
+          <figure class="card__img"><img src="/assets/img/common/img-serviceConts01.jpg" alt="PCサービス"></figure>
+          <summary class="card__box">
+            <div class="card__box--ttl"><span>PCサービス</span></div>
+            <div class="card__box--txt">最適なPCおよび周辺機器を利用期間にあわせて月額費用でご提供します。</div>
+          </summary>
+        </a>
+        <a href="/solution/setup/" class="card fadein">
+          <figure class="card__img"><img src="/assets/img/common/img-serviceConts02.jpg" alt="セットアップ / デリバリサービス"></figure>
+          <summary class="card__box">
+            <div class="card__box--ttl"><span>セットアップ / デリバリサービス</span></div>
+            <div class="card__box--txt">お客様固有の環境にセットアップした上でお届けいたします。</div>
+          </summary>
+        </a>
+        <a href="/solution/support/" class="card fadein">
+          <figure class="card__img"><img src="/assets/img/common/img-serviceConts03.jpg" alt="サポートサービス"></figure>
+          <summary class="card__box">
+            <div class="card__box--ttl"><span>サポートサービス</span></div>
+            <div class="card__box--txt">ヘルプデスク、セキュリティ対策、資産管理などトータルでサポートいたします。</div>
+          </summary>
+        </a>
+      </div>
+      <a href="/solution/" class="more">ソリューションMAPを見る</a>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>セットアップ／デリバリサービス</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

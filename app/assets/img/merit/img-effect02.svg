@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="581" viewBox="0 0 1100 581">
+  <defs>
+    <style>
+      <![CDATA[@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap");]]>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e5f7f1;
+      }
+
+      .cls-3 {
+        fill: #fbf0e5;
+      }
+
+      .cls-4 {
+        fill: #070f26;
+      }
+
+      .cls-15, .cls-5 {
+        fill: #00b176;
+      }
+
+      .cls-11, .cls-13, .cls-14, .cls-16, .cls-5, .cls-6, .cls-8 {
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-13, .cls-14, .cls-5, .cls-6 {
+        font-family: BIZ UDGothic,YuGothicUI-Regular, Yu Gothic UI;
+      }
+
+      .cls-20, .cls-6 {
+        fill: #8246af;
+      }
+
+      .cls-13, .cls-7 {
+        fill: #d76b00;
+      }
+
+      .cls-17, .cls-8 {
+        font-family: Roboto-Bold, Roboto;
+      }
+
+      .cls-17, .cls-18, .cls-8 {
+        font-weight: 700;
+      }
+
+      .cls-16, .cls-9 {
+        font-family: BIZ UDGothic,SegoeUISymbol, Segoe UI Symbol;
+      }
+
+      .cls-9 {
+        font-weight: 400;
+      }
+
+      .cls-10, .cls-18 {
+        font-family: BIZ UDGothic,YuGothicUI-Bold, Yu Gothic UI;
+      }
+
+      .cls-11 {
+        fill: #333;
+      }
+
+      .cls-12 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-19 {
+        fill: #f2ecf7;
+      }
+    </style>
+  </defs>
+  <g id="グループ_3126" data-name="グループ 3126" transform="translate(-410 -3884)">
+    <rect id="長方形_3479" data-name="長方形 3479" class="cls-1" width="1100" height="581" transform="translate(410 3884)"/>
+    <rect id="長方形_3352" data-name="長方形 3352" class="cls-2" width="400" height="471" transform="translate(684 3936)"/>
+    <rect id="長方形_3351" data-name="長方形 3351" class="cls-3" width="250" height="186" transform="translate(1158 4221)"/>
+    <path id="パス_738" data-name="パス 738" class="cls-4" d="M2473.217-1179.547h-75.583l9.871-6.6.556.831-7.13,4.766h72.287Z" transform="translate(2461.046 6618.553) rotate(-90)"/>
+    <path id="パス_733" data-name="パス 733" class="cls-4" d="M2914.5-1128.214H2523.593v-1H2914.5Z" transform="translate(-1754 5154)"/>
+    <text id="お客様環境" class="cls-5" transform="translate(847 3908)"><tspan x="0.551" y="17">お客様環境</tspan></text>
+    <text id="データセンター" class="cls-6" transform="translate(1241 3908)"><tspan x="0.934" y="17">データセンター</tspan></text>
+    <rect id="長方形_3349" data-name="長方形 3349" class="cls-1" width="124" height="40" transform="translate(1221 4341.295)"/>
+    <path id="長方形_3349_-_アウトライン" data-name="長方形 3349 - アウトライン" class="cls-7" d="M1,1V39H123V1H1M0,0H124V40H0Z" transform="translate(1221 4341.295)"/>
+    <text id="_事前検証" data-name=" ② 事前検証" class="cls-8" transform="translate(1238 4350.795)"><tspan x="1.965" y="17"> </tspan><tspan class="cls-9" y="17">②</tspan><tspan y="17"> </tspan><tspan class="cls-10" y="17">事前検証</tspan></text>
+    <text id="お客様PC" class="cls-11" transform="translate(855 4363)"><tspan x="0.297" y="17">お客様</tspan><tspan class="cls-12" y="17">PC</tspan></text>
+    <text id="検証PC" class="cls-11" transform="translate(1254 4312.445)"><tspan x="0.746" y="17">検証</tspan><tspan class="cls-12" y="17">PC</tspan></text>
+    <text id="弊社検証環境" class="cls-13" transform="translate(1235 4410)"><tspan x="0" y="17">弊社検証環境</tspan></text>
+    <text id="検証PC-2" data-name="検証PC" class="cls-14" transform="translate(554 4020)"><tspan x="0.746" y="17">検証</tspan><tspan class="cls-12" y="17">PC</tspan></text>
+    <path id="パス_732" data-name="パス 732" class="cls-4" d="M2912.458-1179.547H2403.635l9.871-6.6.556.831-7.13,4.766h505.528Z" transform="translate(-1754 5158)"/>
+    <path id="パス_734" data-name="パス 734" class="cls-4" d="M2651.824-1179.547H2403.635l9.871-6.6.556.831-7.13,4.766h244.893Z" transform="translate(1949.639 6676.964) rotate(-90)"/>
+    <path id="パス_737" data-name="パス 737" class="cls-4" d="M2651.824-1179.547H2403.635l9.871-6.6.556.831-7.13,4.766h244.893Z" transform="translate(2064.639 6676.964) rotate(-90)"/>
+    <path id="パス_736" data-name="パス 736" class="cls-4" d="M2651.824-1179.547H2403.635l9.871-6.6.556.831-7.13,4.766h244.893Z" transform="translate(2178.639 6676.964) rotate(-90)"/>
+    <rect id="長方形_3344" data-name="長方形 3344" class="cls-1" width="124" height="40" transform="translate(823 3959.738)"/>
+    <path id="長方形_3344_-_アウトライン" data-name="長方形 3344 - アウトライン" class="cls-15" d="M1,1V39H123V1H1M0,0H124V40H0Z" transform="translate(823 3959.738)"/>
+    <text id="_事前検証-2" data-name="③ 事前検証" class="cls-16" transform="translate(840.5 3968.238)"><tspan x="4.457" y="17">③</tspan><tspan class="cls-17" y="17"> </tspan><tspan class="cls-18" y="17">事前検証</tspan></text>
+    <rect id="長方形_3345" data-name="長方形 3345" class="cls-1" width="324" height="40" transform="translate(722 4062)"/>
+    <path id="長方形_3345_-_アウトライン" data-name="長方形 3345 - アウトライン" class="cls-15" d="M1,1V39H323V1H1M0,0H324V40H0Z" transform="translate(722 4062)"/>
+    <text id="_全端末へPUSH配布" data-name=" ④ 全端末へPUSH配布" class="cls-8" transform="translate(797 4071)"><tspan x="8.76" y="17"> </tspan><tspan class="cls-9" y="17">④</tspan><tspan y="17"> </tspan><tspan class="cls-10" y="17">全端末へ</tspan><tspan y="17">PUSH</tspan><tspan class="cls-10" y="17">配布</tspan></text>
+    <rect id="長方形_3346" data-name="長方形 3346" class="cls-1" width="324" height="40" transform="translate(722 4118)"/>
+    <path id="長方形_3346_-_アウトライン" data-name="長方形 3346 - アウトライン" class="cls-15" d="M1,1V39H323V1H1M0,0H324V40H0Z" transform="translate(722 4118)"/>
+    <text id="_PULL配布" data-name="⑤ PULL配布" class="cls-16" transform="translate(797 4127)"><tspan x="43.346" y="17">⑤</tspan><tspan class="cls-17" y="17" xml:space="preserve"> PULL</tspan><tspan class="cls-18" y="17">配布</tspan></text>
+    <rect id="長方形_3347" data-name="長方形 3347" class="cls-1" width="324" height="40" transform="translate(722 4174)"/>
+    <path id="長方形_3347_-_アウトライン" data-name="長方形 3347 - アウトライン" class="cls-15" d="M1,1V39H323V1H1M0,0H324V40H0Z" transform="translate(722 4174)"/>
+    <text id="_端末毎に強制PUSH配布" data-name=" ⑥ 端末毎に強制PUSH配布" class="cls-8" transform="translate(787 4183)"><tspan x="3.578" y="17"> </tspan><tspan class="cls-9" y="17">⑥</tspan><tspan y="17"> </tspan><tspan class="cls-10" y="17">端末毎に強制</tspan><tspan y="17">PUSH</tspan><tspan class="cls-10" y="17">配布</tspan></text>
+    <rect id="長方形_3350" data-name="長方形 3350" class="cls-19" width="250" height="211" transform="translate(1158 3936)"/>
+    <rect id="長方形_3348" data-name="長方形 3348" class="cls-1" width="208.732" height="40" transform="translate(1179 4080)"/>
+    <path id="長方形_3348_-_アウトライン" data-name="長方形 3348 - アウトライン" class="cls-20" d="M1,1V39H207.732V1H1M0,0H208.732V40H0Z" transform="translate(1179 4080)"/>
+    <text id="_配布モジュール登録" data-name=" ① 配布モジュール登録" class="cls-8" transform="translate(1207 4090)"><tspan x="3.188" y="17"> </tspan><tspan class="cls-9" y="17">①</tspan><tspan y="17"> </tspan><tspan class="cls-10" y="17">配布モジュール登録</tspan></text>
+    <text id="公開サーバ" class="cls-11" transform="translate(1248 4041)"><tspan x="0.848" y="17">公開サーバ</tspan></text>
+    <g id="サーバーのフリーアイコン素材" transform="translate(1244 3935.458)">
+      <path id="パス_729" data-name="パス 729" d="M141.408,372.774V366.25H134.1v6.524A6.02,6.02,0,0,0,133,373.867H116.5v7.313H133a5.956,5.956,0,0,0,9.5,0H159v-7.312H142.5A6.021,6.021,0,0,0,141.408,372.774Z" transform="translate(-98.752 -283.117)"/>
+      <path id="パス_730" data-name="パス 730" d="M0,32.25V54.187H78V32.25ZM66.422,43.219a3.656,3.656,0,1,1-3.656-3.656A3.656,3.656,0,0,1,66.422,43.219Zm-59.1,4.859,4.867-9.734h3.374l1.493.016-4.867,9.734H8.807Zm9.75,0,4.867-9.734h3.374l1.493.016-4.867,9.734H18.557Zm9.75,0,4.867-9.734h3.374l1.493.016-4.867,9.734H28.307Z"/>
+      <path id="パス_731" data-name="パス 731" d="M42.656,190.25H35.344v2.742H0V214.93H78V192.992H42.656ZM7.321,208.82l4.867-9.734h3.374l1.493.016-4.867,9.734H8.807Zm9.75,0,4.867-9.734h3.374l1.493.016-4.867,9.734H18.557Zm9.75,0,4.867-9.734h3.374l1.493.016-4.867,9.734H28.307Zm32.289-4.859a3.656,3.656,0,1,1,3.656,3.656A3.656,3.656,0,0,1,59.109,203.961Z" transform="translate(0 -133.93)"/>
+    </g>
+    <g id="グループ_2964" data-name="グループ 2964" transform="translate(-20.385 1861.131)">
+      <g id="グループ_2963" data-name="グループ 2963" transform="translate(548 2084)">
+        <path id="パス_869" data-name="パス 869" d="M0,0H106.771L105.61,6.963H1.161Z" transform="translate(0 59.205)"/>
+        <path id="パス_869_-_アウトライン" data-name="パス 869 - アウトライン" d="M1.18,1l.827,4.963H104.763L105.59,1H1.18M0,0H106.771L105.61,6.963H1.161Z" transform="translate(0 59.205)"/>
+        <path id="長方形_3612" data-name="長方形 3612" d="M6,6V57.631H75.306V6H6M5,0H76.306a5,5,0,0,1,5,5V58.631a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(12.993)"/>
+        <rect id="長方形_3613" data-name="長方形 3613" class="cls-1" width="16.261" height="2.121" transform="translate(45.515 61.407)"/>
+      </g>
+    </g>
+    <g id="グループ_3059" data-name="グループ 3059" transform="translate(171.57 2209)">
+      <g id="グループ_2963-2" data-name="グループ 2963" transform="translate(548 2084)">
+        <path id="パス_869-2" data-name="パス 869" d="M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="パス_869_-_アウトライン-2" data-name="パス 869 - アウトライン" d="M1.18,1l.754,4.525H98.11L98.864,1H1.18M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="長方形_3612-2" data-name="長方形 3612" d="M5.69,5.7,5,53.922l65.484.7.7-48.922H5.69M5,0H71.184a5,5,0,0,1,5,5V54.622a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(12.174 2)"/>
+        <rect id="長方形_3613-2" data-name="長方形 3613" class="cls-2" width="15.237" height="1.987" transform="translate(42.648 57.538)"/>
+      </g>
+    </g>
+    <g id="グループ_3060" data-name="グループ 3060" transform="translate(286.57 2209)">
+      <g id="グループ_2963-3" data-name="グループ 2963" transform="translate(548 2084)">
+        <path id="パス_869-3" data-name="パス 869" d="M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="パス_869_-_アウトライン-3" data-name="パス 869 - アウトライン" d="M1.18,1l.754,4.525H98.11L98.864,1H1.18M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="長方形_3612-3" data-name="長方形 3612" d="M5.69,5.7,5,53.922l65.484.7.7-48.922H5.69M5,0H71.184a5,5,0,0,1,5,5V54.622a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(12.174 2)"/>
+        <rect id="長方形_3613-3" data-name="長方形 3613" class="cls-2" width="15.237" height="1.987" transform="translate(42.648 57.538)"/>
+      </g>
+    </g>
+    <g id="グループ_3061" data-name="グループ 3061" transform="translate(401.571 2209)">
+      <g id="グループ_2963-4" data-name="グループ 2963" transform="translate(548 2084)">
+        <path id="パス_869-4" data-name="パス 869" d="M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="パス_869_-_アウトライン-4" data-name="パス 869 - アウトライン" d="M1.18,1l.754,4.525H98.11L98.864,1H1.18M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="長方形_3612-4" data-name="長方形 3612" d="M5.69,5.7,5,53.922l65.484.7.7-48.922H5.69M5,0H71.184a5,5,0,0,1,5,5V54.622a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(12.174 2)"/>
+        <rect id="長方形_3613-4" data-name="長方形 3613" class="cls-2" width="15.237" height="1.987" transform="translate(42.648 57.538)"/>
+      </g>
+    </g>
+    <g id="グループ_3062" data-name="グループ 3062" transform="translate(682.955 2162.704)">
+      <g id="グループ_2963-5" data-name="グループ 2963" transform="translate(548 2084)">
+        <path id="パス_869-5" data-name="パス 869" d="M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="パス_869_-_アウトライン-5" data-name="パス 869 - アウトライン" d="M1.18,1l.754,4.525H98.11L98.864,1H1.18M0,0H100.045L98.957,6.525H1.087Z" transform="translate(0 55.476)"/>
+        <path id="長方形_3612-5" data-name="長方形 3612" d="M5.69,5.7,5,53.922l65.484.7.7-48.922H5.69M5,0H71.184a5,5,0,0,1,5,5V54.622a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(12.174 2)"/>
+        <rect id="長方形_3613-5" data-name="長方形 3613" class="cls-3" width="15.237" height="1.987" transform="translate(42.648 57.538)"/>
+      </g>
+    </g>
+  </g>
+</svg>

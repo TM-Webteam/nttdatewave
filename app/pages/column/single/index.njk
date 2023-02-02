@@ -1,0 +1,208 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="column-single">
+  <div class="containers flex">
+
+    <article class="Contents article single">
+
+      <h1 class="single__h1">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入（32文字で設定）</h1>
+
+      <div class="single__lead">記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。記事説明文が入ります。</div>
+
+
+      <div class="single__toc">
+        <div class="single__toc--ttl">目次</div>
+        <dl>
+          <dt><a href="#">段落（タイトル）が入ります。段落（タイトル）が入ります。</a></dt>
+          <dd>
+            <ul>
+              <li><a href="#">小見出し（タイトル）が入ります。</a></li>
+              <li><a href="#">小見出し（タイトル）が入ります。</a></li>
+            </ul>
+          </dd>
+          <dt><a href="#">段落（タイトル）が入ります。段落（タイトル）が入ります。</a></dt>
+          <dd>
+            <ul>
+              <li><a href="#">小見出し（タイトル）が入ります。</a></li>
+              <li><a href="#">小見出し（タイトル）が入ります。</a></li>
+            </ul>
+          </dd>
+          <dt><a href="#">段落（タイトル）が入ります。段落（タイトル）が入ります。</a></dt>
+          <dd>
+            <ul>
+              <li><a href="#">小見出し（タイトル）が入ります。</a></li>
+              <li><a href="#">小見出し（タイトル）が入ります。</a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+
+      <h2 class="single__h2">段落（タイトル）が入ります。段落（タイトル）が入ります。</h2>
+
+      <div class="single__img">
+        <img src="/assets/img/column/img-single01.jpg" alt="" class="full">
+      </div>
+
+      <div class="single__txt">
+        <p>段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。</p>
+        <p>段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。</p>
+      </div>
+
+      <a href="#" class="flex cardLink">
+        <figure class="cardLink__img"><img src="/assets/img/column/img-cardlink.jpg" alt=""></figure>
+        <summary class="cardLink__box">
+          <div class="cardLink__box--ttl">コラムタイトルが入ります。コラムタイトルが入ります。</div>
+          <div class="cardLink__box--txt">リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。</div>
+        </summary>
+      </a>
+
+      <h3 class="single__h3">小見出し（タイトル）が入ります。小見出し（タイトル）が入ります。</h3>
+
+      <div class="single__txt">
+        <p>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。</p>
+        <p>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。<br>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。</p>
+        <p>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。</p>
+      </div>
+
+      <h2 class="single__h2">段落（タイトル）が入ります。段落（タイトル）が入ります。</h2>
+
+      <div class="single__img">
+        <img src="/assets/img/column/img-single02.jpg" alt="" class="full">
+      </div>
+
+      <div class="single__txt">
+        <p>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。</p>
+        <p>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。<br>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。</p>
+        <p>小見出し（本文）が入ります。小見出し（本文）が入ります。小見出し（本文）が入ります。</p>
+      </div>
+
+      <h3 class="single__h3">小見出し（タイトル）が入ります。小見出し（タイトル）が入ります。</h3>
+
+      <div class="single__txt">
+        <p>段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。</p>
+        <p>段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。段落（本文）が入ります。</p>
+      </div>
+
+      <div class="single__ttl">お役立ち資料</div>
+      <div class="flex item">
+        <figure class="item__img"><img src="/assets/img/column/img-single03.jpg" alt=""></figure>
+        <summary class="item__box">
+          <div class="item__box--ttl">資料タイトルが入ります。資料タイトルが入</div>
+          <div class="item__box--txt">資料キャッチコピーが入ります。資料キャッチコピーが入ります。資料キャッチコピーが入ります。</div>
+          <a href="#" class="more bg-o dl"><span>資料ダウンロード</span></a>
+        </summary>
+      </div>
+
+      <div class="single__ttl">関連コラム</div>
+      <div class="flex aiC relation">
+        <dl class="flex aiC inherit relation__box">
+          <dt class="relation__box--img"><img src="/assets/img/column/img-single04.jpg" alt=""></dt>
+          <dd class="relation__box--txt">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</dd>
+        </dl>
+        <dl class="flex aiC inherit relation__box">
+          <dt class="relation__box--img"><img src="/assets/img/column/img-single05.jpg" alt=""></dt>
+          <dd class="relation__box--txt">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</dd>
+        </dl>
+        <dl class="flex aiC inherit relation__box">
+          <dt class="relation__box--img"><img src="/assets/img/column/img-single06.jpg" alt=""></dt>
+          <dd class="relation__box--txt">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</dd>
+        </dl>
+      </div>
+      
+      
+
+    </article>
+
+    <aside class="Sidebar">
+
+      <a href="/contact/" class="bnr-contact"><img src="/assets/img/common/bnr-contact.png" alt="導入前のご質問・ご相談はお気軽にご相談お見積り"></a>
+
+      <a href="/catalog/" class="bnr-catalog"><img src="/assets/img/common/bnr-catalog.png" alt="Wave PC Mateの詳細がわかる！ サービス資料ダウンロード"></a>
+
+      <div class="search">
+        <form action="" class="search__form">
+          <input class="search__input" type="search" placeholder="キーワードから探す">
+          <button class="search__btn" type="submit"><img src="/assets/img/common/icon-search.svg"></button>
+        </form>
+      </div>
+
+      <div class="catSearch">
+        <h3 class="ttl-tertiary">カテゴリで探す</h3>
+        <ul class="catSearch__list">
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+        </ul>
+      </div>
+
+      <div class="blogList">
+        <h3 class="ttl-tertiary">よく読まれている記事</h3>
+        <a href="#" class="flex aiC inherit item">
+          <div class="item__img"><img src="/assets/img/common/img-blog01.jpg" alt=""></div>
+          <div class="item__ttl">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</div>
+        </a>
+        <a href="#" class="flex aiC inherit item">
+          <div class="item__img"><img src="/assets/img/common/img-blog02.jpg" alt=""></div>
+          <div class="item__ttl">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</div>
+        </a>
+        <a href="#" class="flex aiC inherit item">
+          <div class="item__img"><img src="/assets/img/common/img-blog03.jpg" alt=""></div>
+          <div class="item__ttl">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</div>
+        </a>
+        <a href="#" class="flex aiC inherit item">
+          <div class="item__img"><img src="/assets/img/common/img-blog04.jpg" alt=""></div>
+          <div class="item__ttl">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</div>
+        </a>
+        <a href="#" class="flex aiC inherit item">
+          <div class="item__img"><img src="/assets/img/common/img-blog05.jpg" alt=""></div>
+          <div class="item__ttl">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</div>
+        </a>
+      </div>
+
+      <a href="#" class="sidenav__bnr">
+        <div class="sidenav__bnr--ttl">情シス部門の工数逼迫で起こりうるリスクと解決策とは</div>
+        <div class="sidenav__bnr--img"><img src="/assets/img/common/img01.jpg" alt=""></div>
+      </a>
+
+    </aside>
+
+  </div>
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li><a href="/column/">お役立ちコラム</a></li>
+        <li>コラムタイトルが入ります。</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+{% endblock %}

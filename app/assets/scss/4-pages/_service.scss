@@ -1,0 +1,26 @@
+/*
+  ----------------
+  service
+  ----------------
+*/
+
+.service {
+
+  .hero-m {
+    background: url("../img/solution/service/bg-hero.webp") 50% / cover no-repeat;
+  }
+
+  .meritConts.bg-LB {
+    background: #fff;
+  }
+
+  .serviceConts {
+    .card:nth-child(1) {
+      pointer-events: none;
+      .card__box--ttl span::before {
+        content: none;
+      }
+    }
+  }
+
+}

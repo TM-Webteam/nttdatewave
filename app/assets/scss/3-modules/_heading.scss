@@ -1,0 +1,109 @@
+/*
+  ----------------
+  各　見出し
+  ----------------
+*/
+.ttl-primary {
+	font-size: 54px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  @media #{$sp} {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+.ttl-primary-s {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  @media #{$sp} {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  &.lower {
+    font-size: 48px;
+    @media #{$sp} {
+      font-size: 22px;
+    }
+  }
+}
+
+.ttl-catch {
+  font-size: 22px;
+  color: #fff;
+  @media #{$sp} {
+    font-size: 14px;
+  }
+}
+
+.ttl-secondary {
+	font-size: 32px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 40px;
+  @media #{$sp} {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &.cW {
+    color: #fff;
+  }
+}
+
+.ttl-tertiary {
+	font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-left: 10px solid #6785C1;
+  margin-bottom: 20px;
+  @media #{$sp} {
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 5px solid #6785C1;
+    margin-bottom: 15px;
+  }
+}
+
+.ttl-quaternary {
+	
+}
+
+.ttl-quinary {
+	
+}
+
+.lead {
+	font-size: 20px;
+  color: #333;
+	text-align: center;
+	margin-bottom: 40px;
+	@media #{$sp} {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+}
+
+.ttl-sub {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-top: 5px solid #6785C1;
+  border-bottom: 2px solid #6785C1;
+  margin-bottom: 40px;
+  @media #{$sp} {
+    font-size: 16px;
+    padding: 10px;
+    border-top: 3px solid #6785C1;
+    border-bottom: 1px solid #6785C1;
+    margin-bottom: 20px;
+  }
+}
+
+.note {
+	font-size: 12px;
+}

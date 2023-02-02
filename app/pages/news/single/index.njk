@@ -1,0 +1,86 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="news-single">
+
+  <div class="containers flex">
+
+    <article class="Contents article">
+
+      <div class="flex fS aiC article__time">
+        <span class="time">2021.3.8</span>
+        <span class="cat">カテゴリ名</span>
+      </div>
+
+      <h1 class="article__ttl">お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h1>
+
+      <div class="article__lead">リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。</div>
+
+      <div class="article__conts">
+        <p>お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。</p>
+        <p>お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。</p>
+      </div>
+
+      <nav class="pagination">
+        <div class="nav-links">
+          <a class="prev page-numbers" href="#"><span></span></a>
+          <a class="page-numbers" href="#">1</a>
+          <span class="page-numbers current">2</span>
+          <a class="page-numbers" href="#">3</a>
+          <a class="next page-numbers" href="#"><span></span></a>
+        </div>
+      </nav>
+
+    </article>
+
+    <aside class="Sidebar">
+
+      <div class="catSearch">
+        <h3 class="ttl-tertiary">カテゴリで探す</h3>
+        <ul class="catSearch__list">
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+          <li><a href="#" class="cat">カテゴリ名が入ります</a></li>
+        </ul>
+      </div>
+
+      <a href="/contact/" class="bnr-contact"><img src="/assets/img/common/bnr-contact.png" alt="導入前のご質問・ご相談はお気軽にご相談お見積り"></a>
+
+      <a href="/catalog/" class="bnr-catalog"><img src="/assets/img/common/bnr-catalog.png" alt="Wave PC Mateの詳細がわかる！ サービス資料ダウンロード"></a>
+
+    </aside>
+
+  </div>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li><a href="/news/">お知らせ</a></li>
+        <li>お知らせ詳細</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

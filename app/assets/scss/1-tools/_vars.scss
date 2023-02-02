@@ -1,0 +1,50 @@
+// Breakpoint設定
+
+$sp: "all and (max-width : 768px)";
+//$sm: "all and (max-width : 840px)";
+//$md: "all and (max-width : 1000px)";
+$tab: "all and (max-width : 1112px)";
+$lg: "all and (max-width : 1200px)";
+$xl: "all and (max-width : 1639px)";
+$pc: "all and (min-width: 769px)";
+
+$h-pc: "all and (min-width : 1260px)";
+$h-sp: "all and (max-width : 1259px)";
+
+// Font-family
+@font-face {
+  font-family: 'DINOT';
+  font-display: swap;
+  src: url('../font/DINOT-Bold.otf') format('opentype'),
+      url('../font/DINOT-Bold.woff') format('woff'),
+      url('../font/DINOT-Bold.woff2') format('woff2');
+}
+
+
+
+$font-family: 'Roboto','BIZ UDGothic','Meiryo UI','メイリオ','Arial',sans-serif;
+
+// カラー
+
+$primary-color: #000;
+
+$secondary-color: #ccc;
+
+$tertiary-color: #eee;
+
+
+// テキストカラー
+
+
+
+// コンテナー設定
+
+$container: 1160px;
+$container-full: 100%;
+
+// グリッド設定
+
+$gutter: 20px;
+$small-gutter: 10px;
+
+

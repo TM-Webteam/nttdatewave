@@ -1,0 +1,119 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="catalog">
+
+  <section class="hero-m core">
+    <div class="containers flex aiC">
+      <figure class="hero-m__img"><img src="/assets/img/catalog/img-hero.png" alt=""></figure>
+      <div class="hero-m__box">
+        <h1 class="ttl-primary-s wave">サービス資料ダウンロード</h1>
+        <div class="ttl-catch">Wave PC Mateに関する詳細な<br class="sp-only">資料ダウンロードはこちらから。</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="form">
+    <div class="containers">
+      <div class="form__note">
+        <p>● 下記フォームに必要事項をご記入の上、「確認画面へ進む」ボタンを押してください</p>
+      </div>
+      <form action="">
+        <div class="form__ttl">ダウンロード申込みフォーム</div>
+        <div class="form__table">
+          <table>
+            <colgroup>
+              <col>
+              <col>
+            </colgroup>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">会社名</span>
+                <span class="required">必須</span>
+              </th>
+              <td><input type="text" placeholder="例）NTTデータウェーブ株式会社"></td>
+            </tr>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">部署名</span>
+                <span class="required">必須</span>
+              </th>
+              <td><input type="text" placeholder="例）システム管理室"></td>
+            </tr>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">ご担当者名</span>
+                <span class="required">必須</span>
+              </th>
+              <td>
+                <div class="flex aiC">
+                  <p class="flex fS aiC half"><span>氏：</span><input type="text" placeholder="例）佐藤"></p>
+                  <p class="flex fS aiC half"><span>名：</span><input type="text" placeholder="例）太郎"></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">メールアドレス</span>
+                <span class="required">必須</span>
+              </th>
+              <td><input type="email" placeholder="例）sample@gmail.com.jp"></td>
+            </tr>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">電話番号</span>
+                <span class="required">必須</span>
+              </th>
+              <td><input type="tel" placeholder="例）090-1234-5678"></td>
+            </tr>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">お問合せ・相談事項がある方<br class="pc-only">はご記入ください。</span>
+                <span class="optional">任意</span>
+              </th>
+              <td><textarea placeholder="例）ダウンロード資料を見ながら説明もしてほしい。"></textarea></td>
+            </tr>
+            <tr>
+              <th class="flex aiC">
+                <span class="item">個人情報の取扱いについて</span>
+                <span class="required">必須</span>
+              </th>
+              <td><div class="flex fS aiC"><input type="checkbox">同意する</div><p>弊社Webサイトの<a href="/privacy/">プライバシーポリシー</a>をご確認の上、ご同意いただき送信をお願いいたします。</p></td>
+            </tr>
+          </table>
+          <button type="submit" class="more bg-o">確認画面へ進む</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>サービス資料ダウンロード</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

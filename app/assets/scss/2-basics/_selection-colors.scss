@@ -1,0 +1,27 @@
+/*
+  ----------------
+  各sectionの背景色・背景画像
+  ----------------
+*/
+
+.bg-LB {
+  background: #F5F7FB;
+}
+
+.bg-B {
+  background: #E1E7F3;
+}
+
+.bg-DB {
+  background: #070F26;
+  color: #fff;
+}
+
+.bg-Cube {
+  background-image: url("../img/common/bg-cube-top.svg"),url("../img/common/bg-cube-bottom.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left, bottom right;
+  @media #{$sp} {
+    background-size: 30% auto, 30% auto;
+  }
+}

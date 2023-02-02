@@ -1,0 +1,26 @@
+/*
+  ----------------
+  setup
+  ----------------
+*/
+
+.setup {
+
+  .hero-m {
+    background: url("../img/solution/setup/bg-hero.webp") 50% / cover no-repeat;
+  }
+
+  .meritConts.bg-LB {
+    background: #fff;
+  }
+
+  .serviceConts {
+    .card:nth-child(2) {
+      pointer-events: none;
+      .card__box--ttl span::before {
+        content: none;
+      }
+    }
+  }
+
+}

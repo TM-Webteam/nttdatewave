@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="616" viewBox="0 0 1100 616">
+  <g id="グループ_2697" data-name="グループ 2697" transform="translate(-410 -4140)">
+    <rect id="長方形_3691" data-name="長方形 3691" width="1100" height="616" transform="translate(410 4140)" fill="#fff"/>
+    <rect id="長方形_3703" data-name="長方形 3703" width="359" height="40" transform="translate(1112 4510)" fill="#bc4328"/>
+    <rect id="長方形_3702" data-name="長方形 3702" width="359" height="40" transform="translate(449 4564)" fill="#00b176"/>
+    <rect id="長方形_3704" data-name="長方形 3704" width="359" height="40" transform="translate(1112 4564)" fill="#bc4328"/>
+    <rect id="長方形_3702-2" data-name="長方形 3702" width="359" height="40" transform="translate(449 4617)" fill="#00b176"/>
+    <rect id="長方形_3705" data-name="長方形 3705" width="359" height="40" transform="translate(1112 4617)" fill="#bc4328"/>
+    <rect id="長方形_3702-3" data-name="長方形 3702" width="359" height="40" transform="translate(449 4671)" fill="#00b176"/>
+    <rect id="長方形_3706" data-name="長方形 3706" width="359" height="40" transform="translate(1112 4671)" fill="#00b176"/>
+    <text id="弊社検証PCへ最新パッチ適用" transform="translate(1180 4536)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">弊社検証</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan><tspan y="0">へ最新パッチ適用</tspan></text>
+    <text id="本環境への公開" transform="translate(900 4618)" font-size="18" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">本環境への公開</tspan></text>
+    <text id="最新パッチ未適用端末への通知" transform="translate(469 4591)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">最新パッチ未適用端末への通知</tspan></text>
+    <text id="弊社検証PC環境による動作確認" transform="translate(1180 4591)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">弊社検証</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan><tspan y="0">環境による動作確認</tspan></text>
+    <text id="全拠点PCへの配信" transform="translate(469 4644)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">全拠点</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan><tspan y="0">への配信</tspan></text>
+    <text id="システム正常性確認" transform="translate(1180 4644)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">システム正常性確認</tspan></text>
+    <text id="パッチ適用状況確認" transform="translate(469 4697)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">パッチ適用状況確認</tspan></text>
+    <text id="お客様検証PCへの配信_動作確認" data-name="お客様検証PCへの配信・動作確認" transform="translate(1180 4697)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">お客様検証</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan><tspan y="0">への配信・動作確認</tspan></text>
+    <rect id="長方形_3699" data-name="長方形 3699" width="95" height="46" transform="translate(1368 4199)" fill="#f1f1f1"/>
+    <rect id="長方形_3700" data-name="長方形 3700" width="95" height="46" transform="translate(1368 4253)" fill="#f1f1f1"/>
+    <text id="お客様環境" transform="translate(450 4190)" fill="#00b176" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">お客様環境</tspan></text>
+    <text id="データセンター" transform="translate(918 4190)" fill="#8246af" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">データセンター</tspan></text>
+    <text id="Microsoft社" transform="translate(1378 4227)" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Microsoft</tspan><tspan y="0" font-family="YuGothicUI-Bold, Yu Gothic UI">社</tspan></text>
+    <text id="McAfee社" transform="translate(1383 4280)" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">McAfee</tspan><tspan y="0" font-family="YuGothicUI-Bold, Yu Gothic UI">社</tspan></text>
+    <rect id="長方形_3692" data-name="長方形 3692" width="441" height="238" transform="translate(449 4199)" fill="#e5f7f1"/>
+    <rect id="長方形_3693" data-name="長方形 3693" width="207" height="100" transform="translate(917 4199)" fill="#f2ecf7"/>
+    <text id="弊社検証環境" transform="translate(918 4328)" fill="#bc4328" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">弊社検証環境</tspan></text>
+    <rect id="長方形_3698" data-name="長方形 3698" width="207" height="100" transform="translate(917 4337)" fill="#f8ece9"/>
+    <g id="グループ_2681" data-name="グループ 2681" transform="translate(607.077 4355.252)">
+      <g id="グループ_2603" data-name="グループ 2603" transform="translate(0 0)">
+        <g id="グループ_2600" data-name="グループ 2600" transform="translate(0 0)">
+          <path id="パス_726" data-name="パス 726" d="M61.562,4.131v33.62H57.711V30.1q0-13.166-.011-26.321c0-2.754.963-3.751,3.672-3.751q24.854-.017,49.719,0c2.463,0,3.639,1.03,3.65,3.28q.034,16.827,0,33.665a6.671,6.671,0,0,1-.1.772h-3.762V4.131Z" transform="translate(-51.251 -0.025)"/>
+          <path id="パス_727" data-name="パス 727" d="M66.59,359.511H3.47a3.155,3.155,0,0,1-3.135-2.754l-.224-1.724A1.267,1.267,0,0,1,1.365,353.6H68.684a1.266,1.266,0,0,1,1.254,1.411l-.19,1.69A3.183,3.183,0,0,1,66.59,359.511Z" transform="translate(-0.1 -314.015)"/>
+        </g>
+        <path id="パス_728" data-name="パス 728" d="M278.363,376.031h-9.651a.213.213,0,0,1-.213-.213v-.806a.212.212,0,0,1,.213-.213h9.651a.213.213,0,0,1,.213.213v.806A.22.22,0,0,1,278.363,376.031Z" transform="translate(-238.451 -332.841)" fill="#e5f7f1"/>
+      </g>
+      <g id="Camada_x0020_1" transform="translate(23.779 10.114)">
+        <path id="パス_845" data-name="パス 845" d="M2518.291,2467.272v10h0c0,.021-.006.037-.006.059a.454.454,0,0,1-.51.391l-9.932-1.315a.454.454,0,0,1-.435-.451v-8.7h.005a.455.455,0,0,1,.451-.457l9.931.016h.038A.455.455,0,0,1,2518.291,2467.272Zm-11.956-.016v8.515a.454.454,0,0,1-.51.392l-9.363-1.166a.454.454,0,0,1-.413-.451v-7.274h0a.455.455,0,0,1,.456-.451l9.336-.021h.042A.455.455,0,0,1,2506.335,2467.256Zm0-10.26v8.294a.454.454,0,0,1-.451.452h-9.427a.455.455,0,0,1-.456-.452v-7.107h0a.457.457,0,0,1,.4-.451l9.385-1.181a.523.523,0,0,1,.1-.011A.455.455,0,0,1,2506.335,2457Zm11.5,8.746h-9.969a.455.455,0,0,1-.456-.452v-8.53h.005a.457.457,0,0,1,.392-.451l9.931-1.3a.6.6,0,0,1,.1-.011.456.456,0,0,1,.457.456v9.835A.455.455,0,0,1,2517.834,2465.742Z" transform="translate(-2496 -2455)"/>
+      </g>
+    </g>
+    <g id="グループ_2681-2" data-name="グループ 2681" transform="translate(686.077 4355.252)">
+      <g id="グループ_2603-2" data-name="グループ 2603" transform="translate(0 0)">
+        <g id="グループ_2600-2" data-name="グループ 2600" transform="translate(0 0)">
+          <path id="パス_726-2" data-name="パス 726" d="M61.562,4.131v33.62H57.711V30.1q0-13.166-.011-26.321c0-2.754.963-3.751,3.672-3.751q24.854-.017,49.719,0c2.463,0,3.639,1.03,3.65,3.28q.034,16.827,0,33.665a6.671,6.671,0,0,1-.1.772h-3.762V4.131Z" transform="translate(-51.251 -0.025)"/>
+          <path id="パス_727-2" data-name="パス 727" d="M66.59,359.511H3.47a3.155,3.155,0,0,1-3.135-2.754l-.224-1.724A1.267,1.267,0,0,1,1.365,353.6H68.684a1.266,1.266,0,0,1,1.254,1.411l-.19,1.69A3.183,3.183,0,0,1,66.59,359.511Z" transform="translate(-0.1 -314.015)"/>
+        </g>
+        <path id="パス_728-2" data-name="パス 728" d="M278.363,376.031h-9.651a.213.213,0,0,1-.213-.213v-.806a.212.212,0,0,1,.213-.213h9.651a.213.213,0,0,1,.213.213v.806A.22.22,0,0,1,278.363,376.031Z" transform="translate(-238.451 -332.841)" fill="#e5f7f1"/>
+      </g>
+      <g id="Camada_x0020_1-2" data-name="Camada_x0020_1" transform="translate(23.779 10.114)">
+        <path id="パス_845-2" data-name="パス 845" d="M2518.291,2467.272v10h0c0,.021-.006.037-.006.059a.454.454,0,0,1-.51.391l-9.932-1.315a.454.454,0,0,1-.435-.451v-8.7h.005a.455.455,0,0,1,.451-.457l9.931.016h.038A.455.455,0,0,1,2518.291,2467.272Zm-11.956-.016v8.515a.454.454,0,0,1-.51.392l-9.363-1.166a.454.454,0,0,1-.413-.451v-7.274h0a.455.455,0,0,1,.456-.451l9.336-.021h.042A.455.455,0,0,1,2506.335,2467.256Zm0-10.26v8.294a.454.454,0,0,1-.451.452h-9.427a.455.455,0,0,1-.456-.452v-7.107h0a.457.457,0,0,1,.4-.451l9.385-1.181a.523.523,0,0,1,.1-.011A.455.455,0,0,1,2506.335,2457Zm11.5,8.746h-9.969a.455.455,0,0,1-.456-.452v-8.53h.005a.457.457,0,0,1,.392-.451l9.931-1.3a.6.6,0,0,1,.1-.011.456.456,0,0,1,.457.456v9.835A.455.455,0,0,1,2517.834,2465.742Z" transform="translate(-2496 -2455)"/>
+      </g>
+    </g>
+    <g id="グループ_2681-3" data-name="グループ 2681" transform="translate(765.077 4355.252)">
+      <g id="グループ_2603-3" data-name="グループ 2603" transform="translate(0 0)">
+        <g id="グループ_2600-3" data-name="グループ 2600" transform="translate(0 0)">
+          <path id="パス_726-3" data-name="パス 726" d="M61.562,4.131v33.62H57.711V30.1q0-13.166-.011-26.321c0-2.754.963-3.751,3.672-3.751q24.854-.017,49.719,0c2.463,0,3.639,1.03,3.65,3.28q.034,16.827,0,33.665a6.671,6.671,0,0,1-.1.772h-3.762V4.131Z" transform="translate(-51.251 -0.025)"/>
+          <path id="パス_727-3" data-name="パス 727" d="M66.59,359.511H3.47a3.155,3.155,0,0,1-3.135-2.754l-.224-1.724A1.267,1.267,0,0,1,1.365,353.6H68.684a1.266,1.266,0,0,1,1.254,1.411l-.19,1.69A3.183,3.183,0,0,1,66.59,359.511Z" transform="translate(-0.1 -314.015)"/>
+        </g>
+        <path id="パス_728-3" data-name="パス 728" d="M278.363,376.031h-9.651a.213.213,0,0,1-.213-.213v-.806a.212.212,0,0,1,.213-.213h9.651a.213.213,0,0,1,.213.213v.806A.22.22,0,0,1,278.363,376.031Z" transform="translate(-238.451 -332.841)" fill="#e5f7f1"/>
+      </g>
+      <g id="Camada_x0020_1-3" data-name="Camada_x0020_1" transform="translate(23.779 10.114)">
+        <path id="パス_845-3" data-name="パス 845" d="M2518.291,2467.272v10h0c0,.021-.006.037-.006.059a.454.454,0,0,1-.51.391l-9.932-1.315a.454.454,0,0,1-.435-.451v-8.7h.005a.455.455,0,0,1,.451-.457l9.931.016h.038A.455.455,0,0,1,2518.291,2467.272Zm-11.956-.016v8.515a.454.454,0,0,1-.51.392l-9.363-1.166a.454.454,0,0,1-.413-.451v-7.274h0a.455.455,0,0,1,.456-.451l9.336-.021h.042A.455.455,0,0,1,2506.335,2467.256Zm0-10.26v8.294a.454.454,0,0,1-.451.452h-9.427a.455.455,0,0,1-.456-.452v-7.107h0a.457.457,0,0,1,.4-.451l9.385-1.181a.523.523,0,0,1,.1-.011A.455.455,0,0,1,2506.335,2457Zm11.5,8.746h-9.969a.455.455,0,0,1-.456-.452v-8.53h.005a.457.457,0,0,1,.392-.451l9.931-1.3a.6.6,0,0,1,.1-.011.456.456,0,0,1,.457.456v9.835A.455.455,0,0,1,2517.834,2465.742Z" transform="translate(-2496 -2455)"/>
+      </g>
+    </g>
+    <g id="サーバーのフリーアイコン素材" transform="translate(994.288 4185.992)">
+      <path id="パス_729" data-name="パス 729" d="M133.13,370.606V366.25h-4.882v4.356a4.019,4.019,0,0,0-.73.73H116.5v4.882h11.018a3.977,3.977,0,0,0,6.341,0h11.018v-4.882H133.86A4.017,4.017,0,0,0,133.13,370.606Z" transform="translate(-104.651 -300.028)"/>
+      <path id="パス_730" data-name="パス 730" d="M0,32.25V46.9H52.076V32.25Zm44.346,7.323a2.441,2.441,0,1,1-2.441-2.441A2.441,2.441,0,0,1,44.346,39.573ZM4.888,42.817l3.249-6.5h2.253l1,.011-3.249,6.5H5.88Zm6.51,0,3.249-6.5H16.9l1,.011-3.249,6.5H12.389Zm6.51,0,3.249-6.5h2.253l1,.011-3.249,6.5H18.9Z"/>
+      <path id="パス_731" data-name="パス 731" d="M28.479,190.25H23.6v1.831H0v14.646H52.076V192.081h-23.6Zm-23.592,12.4,3.249-6.5h2.253l1,.011-3.249,6.5H5.88Zm6.51,0,3.249-6.5H16.9l1,.011-3.249,6.5H12.389Zm6.51,0,3.249-6.5h2.253l1,.011-3.249,6.5H18.9ZM39.464,199.4a2.441,2.441,0,1,1,2.441,2.441A2.441,2.441,0,0,1,39.464,199.4Z" transform="translate(0 -141.929)"/>
+    </g>
+    <text id="公開サーバ" transform="translate(990 4284)" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">公開サーバ</tspan></text>
+    <text id="検証PC" transform="translate(998 4421)" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">検証</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan></text>
+    <text id="お客様検証PC" transform="translate(490 4348.748)" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">お客様検証</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan></text>
+    <text id="お客様PC" transform="translate(697 4421)" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">お客様</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">PC</tspan></text>
+    <path id="パス_784" data-name="パス 784" d="M2696.282-1179.546h-1.648l9.871-6.6.556.831-7.13,4.766h231.326v1Z" transform="translate(-1566.657 5428.887)" fill="#d76b00"/>
+    <path id="パス_955" data-name="パス 955" d="M2694.635-1179.546l9.871-6.6.556.831-7.13,4.766h66.326v1Z" transform="translate(1824.046 7042.53) rotate(-90)" fill="#d76b00"/>
+    <path id="パス_958" data-name="パス 958" d="M2694.634-1179.546l9.872-6.6.556.831-7.13,4.765,33.791-.013v1Z" transform="translate(1713.607 6968.27) rotate(-90)" fill="#d76b00"/>
+    <path id="パス_956" data-name="パス 956" d="M2694.635-1179.546l9.871-6.6.556.831-7.13,4.766h66.326v1Z" transform="translate(1901.046 7042.53) rotate(-90)" fill="#d76b00"/>
+    <path id="パス_957" data-name="パス 957" d="M2694.635-1179.546l9.871-6.6.556.831-7.13,4.766h66.326v1Z" transform="translate(1978.046 7042.53) rotate(-90)" fill="#d76b00"/>
+    <path id="パス_953" data-name="パス 953" d="M2819.757-1185.227H2694.772l9.713-7.22.6.8-7.288,5.417h120.964v-102.107H2696.282v-1h123.475Z" transform="translate(-1566.657 5569.887)" fill="#d76b00"/>
+    <g id="グループ_2691" data-name="グループ 2691" transform="translate(0 3)">
+      <rect id="長方形_3694" data-name="長方形 3694" width="173" height="40" transform="translate(1170 4226)" fill="#fff"/>
+      <path id="長方形_3694_-_アウトライン" data-name="長方形 3694 - アウトライン" d="M2,2V38H171V2H2M0,0H173V40H0Z" transform="translate(1170 4226)" fill="#d76b00"/>
+      <text id="_1." data-name="1." transform="translate(1188 4251)" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.05" y="0">1.</tspan></text>
+      <text id="最新パッチの取り込み" transform="translate(1257 4252)" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-61.212" y="0">最新パッチの取り込み</tspan></text>
+    </g>
+    <g id="グループ_2692" data-name="グループ 2692" transform="translate(0 -1)">
+      <rect id="長方形_3695" data-name="長方形 3695" width="173" height="40" transform="translate(1170 4310)" fill="#fff"/>
+      <path id="長方形_3695_-_アウトライン" data-name="長方形 3695 - アウトライン" d="M2,2V38H171V2H2M0,0H173V40H0Z" transform="translate(1170 4310)" fill="#d76b00"/>
+      <text id="_2." data-name="2." transform="translate(1182 4335)" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2.</tspan></text>
+      <text id="事前検証" transform="translate(1257 4335)" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-28" y="0">事前検証</tspan></text>
+    </g>
+    <g id="グループ_2689" data-name="グループ 2689" transform="translate(0 -1)">
+      <g id="グループ_2687" data-name="グループ 2687" transform="translate(499.577 4284)">
+        <g id="グループ_2603-4" data-name="グループ 2603" transform="translate(0 0)">
+          <g id="グループ_2600-4" data-name="グループ 2600" transform="translate(0 0)">
+            <path id="パス_726-4" data-name="パス 726" d="M61.562,4.131v33.62H57.711V30.1q0-13.166-.011-26.321c0-2.754.963-3.751,3.672-3.751q24.854-.017,49.719,0c2.463,0,3.639,1.03,3.65,3.28q.034,16.827,0,33.665a6.671,6.671,0,0,1-.1.772h-3.762V4.131Z" transform="translate(-51.251 -0.025)"/>
+            <path id="パス_727-4" data-name="パス 727" d="M66.59,359.511H3.47a3.155,3.155,0,0,1-3.135-2.754l-.224-1.724A1.267,1.267,0,0,1,1.365,353.6H68.684a1.266,1.266,0,0,1,1.254,1.411l-.19,1.69A3.183,3.183,0,0,1,66.59,359.511Z" transform="translate(-0.1 -314.015)"/>
+          </g>
+          <path id="パス_728-4" data-name="パス 728" d="M278.363,376.031h-9.651a.213.213,0,0,1-.213-.213v-.806a.212.212,0,0,1,.213-.213h9.651a.213.213,0,0,1,.213.213v.806A.22.22,0,0,1,278.363,376.031Z" transform="translate(-238.451 -332.841)" fill="#e5f7f1"/>
+        </g>
+        <g id="Camada_x0020_1-4" data-name="Camada_x0020_1" transform="translate(23.779 10.114)">
+          <path id="パス_845-4" data-name="パス 845" d="M2518.291,2467.272v10h0c0,.021-.006.037-.006.059a.454.454,0,0,1-.51.391l-9.932-1.315a.454.454,0,0,1-.435-.451v-8.7h.005a.455.455,0,0,1,.451-.457l9.931.016h.038A.455.455,0,0,1,2518.291,2467.272Zm-11.956-.016v8.515a.454.454,0,0,1-.51.392l-9.363-1.166a.454.454,0,0,1-.413-.451v-7.274h0a.455.455,0,0,1,.456-.451l9.336-.021h.042A.455.455,0,0,1,2506.335,2467.256Zm0-10.26v8.294a.454.454,0,0,1-.451.452h-9.427a.455.455,0,0,1-.456-.452v-7.107h0a.457.457,0,0,1,.4-.451l9.385-1.181a.523.523,0,0,1,.1-.011A.455.455,0,0,1,2506.335,2457Zm11.5,8.746h-9.969a.455.455,0,0,1-.456-.452v-8.53h.005a.457.457,0,0,1,.392-.451l9.931-1.3a.6.6,0,0,1,.1-.011.456.456,0,0,1,.457.456v9.835A.455.455,0,0,1,2517.834,2465.742Z" transform="translate(-2496 -2455)"/>
+        </g>
+      </g>
+      <g id="虫眼鏡のアイコン_2_" data-name="虫眼鏡のアイコン (2)" transform="translate(492.007 4294.769)">
+        <path id="パス_954" data-name="パス 954" d="M21.958,3.029a10.355,10.355,0,0,0-16.2,12.663L.742,20.71a2.5,2.5,0,1,0,3.536,3.536L9.3,19.228a10.357,10.357,0,0,0,12.662-16.2Zm-2.83,11.826a6.361,6.361,0,1,1,1.864-4.5A6.335,6.335,0,0,1,19.129,14.855Z" transform="translate(0 0)"/>
+        <path id="パス_954_-_アウトライン" data-name="パス 954 - アウトライン" d="M14.625-.006a10.348,10.348,0,0,0-8.865,15.7L.742,20.71a2.5,2.5,0,0,0,3.536,3.536L9.3,19.228A10.357,10.357,0,1,0,14.631-.006h-.006m.006,16.725a6.364,6.364,0,1,1,4.5-1.864,6.339,6.339,0,0,1-4.5,1.864M14.625-1.006h.012a11.361,11.361,0,0,1,8.028,19.4,11.338,11.338,0,0,1-8.025,3.327h-.021a11.3,11.3,0,0,1-5.149-1.25L4.984,24.954A3.5,3.5,0,0,1,.034,20l4.485-4.485A11.352,11.352,0,0,1,14.625-1.006Zm.006,16.725a5.362,5.362,0,1,0-3.791-1.57A5.344,5.344,0,0,0,14.631,15.719Z" transform="translate(0 0)" fill="#e5f7f1"/>
+      </g>
+    </g>
+    <g id="グループ_2688" data-name="グループ 2688" transform="translate(0 -1)">
+      <g id="グループ_2680" data-name="グループ 2680" transform="translate(985.577 4356.252)">
+        <g id="グループ_2603-5" data-name="グループ 2603" transform="translate(0 0)">
+          <g id="グループ_2600-5" data-name="グループ 2600" transform="translate(0 0)">
+            <path id="パス_726-5" data-name="パス 726" d="M61.562,4.131v33.62H57.711V30.1q0-13.166-.011-26.321c0-2.754.963-3.751,3.672-3.751q24.854-.017,49.719,0c2.463,0,3.639,1.03,3.65,3.28q.034,16.827,0,33.665a6.671,6.671,0,0,1-.1.772h-3.762V4.131Z" transform="translate(-51.251 -0.025)"/>
+            <path id="パス_727-5" data-name="パス 727" d="M66.59,359.511H3.47a3.155,3.155,0,0,1-3.135-2.754l-.224-1.724A1.267,1.267,0,0,1,1.365,353.6H68.684a1.266,1.266,0,0,1,1.254,1.411l-.19,1.69A3.183,3.183,0,0,1,66.59,359.511Z" transform="translate(-0.1 -314.015)"/>
+          </g>
+          <path id="パス_728-5" data-name="パス 728" d="M278.363,376.031h-9.651a.213.213,0,0,1-.213-.213v-.806a.212.212,0,0,1,.213-.213h9.651a.213.213,0,0,1,.213.213v.806A.22.22,0,0,1,278.363,376.031Z" transform="translate(-238.451 -332.841)" fill="#f8ece9"/>
+        </g>
+        <g id="Camada_x0020_1-5" data-name="Camada_x0020_1" transform="translate(23.779 10.114)">
+          <path id="パス_845-5" data-name="パス 845" d="M2518.291,2467.272v10h0c0,.021-.006.037-.006.059a.454.454,0,0,1-.51.391l-9.932-1.315a.454.454,0,0,1-.435-.451v-8.7h.005a.455.455,0,0,1,.451-.457l9.931.016h.038A.455.455,0,0,1,2518.291,2467.272Zm-11.956-.016v8.515a.454.454,0,0,1-.51.392l-9.363-1.166a.454.454,0,0,1-.413-.451v-7.274h0a.455.455,0,0,1,.456-.451l9.336-.021h.042A.455.455,0,0,1,2506.335,2467.256Zm0-10.26v8.294a.454.454,0,0,1-.451.452h-9.427a.455.455,0,0,1-.456-.452v-7.107h0a.457.457,0,0,1,.4-.451l9.385-1.181a.523.523,0,0,1,.1-.011A.455.455,0,0,1,2506.335,2457Zm11.5,8.746h-9.969a.455.455,0,0,1-.456-.452v-8.53h.005a.457.457,0,0,1,.392-.451l9.931-1.3a.6.6,0,0,1,.1-.011.456.456,0,0,1,.457.456v9.835A.455.455,0,0,1,2517.834,2465.742Z" transform="translate(-2496 -2455)"/>
+        </g>
+      </g>
+      <g id="虫眼鏡のアイコン_2_2" data-name="虫眼鏡のアイコン (2)" transform="translate(977.007 4366.513)">
+        <path id="パス_954-2" data-name="パス 954" d="M21.958,3.029a10.355,10.355,0,0,0-16.2,12.663L.742,20.71a2.5,2.5,0,1,0,3.536,3.536L9.3,19.228a10.357,10.357,0,0,0,12.662-16.2Zm-2.83,11.826a6.361,6.361,0,1,1,1.864-4.5A6.335,6.335,0,0,1,19.129,14.855Z" transform="translate(0 0)"/>
+        <path id="パス_954_-_アウトライン-2" data-name="パス 954 - アウトライン" d="M14.625-.006a10.348,10.348,0,0,0-8.865,15.7L.742,20.71a2.5,2.5,0,0,0,3.536,3.536L9.3,19.228A10.357,10.357,0,1,0,14.631-.006h-.006m.006,16.725a6.364,6.364,0,1,1,4.5-1.864,6.339,6.339,0,0,1-4.5,1.864M14.625-1.006h.012a11.361,11.361,0,0,1,8.028,19.4,11.338,11.338,0,0,1-8.025,3.327h-.021a11.3,11.3,0,0,1-5.149-1.25L4.984,24.954A3.5,3.5,0,0,1,.034,20l4.485-4.485A11.352,11.352,0,0,1,14.625-1.006Zm.006,16.725a5.362,5.362,0,1,0-3.791-1.57A5.344,5.344,0,0,0,14.631,15.719Z" transform="translate(0 0)" fill="#f8ece9"/>
+      </g>
+    </g>
+    <path id="線_380" data-name="線 380" d="M113,.5H0v-1H113Z" transform="translate(800.5 4283.5)" fill="#d76b00"/>
+    <path id="パス_959" data-name="パス 959" d="M113,.5H-267v-1H113Z" transform="translate(800.5 4237)" fill="#d76b00"/>
+    <g id="グループ_2690" data-name="グループ 2690" transform="translate(-4 -20)">
+      <rect id="長方形_3696" data-name="長方形 3696" width="173" height="40" transform="translate(639 4284)" fill="#fff"/>
+      <path id="長方形_3696_-_アウトライン" data-name="長方形 3696 - アウトライン" d="M2,2V38H171V2H2M0,0H173V40H0Z" transform="translate(639 4284)" fill="#d76b00"/>
+      <text id="_4." data-name="4." transform="translate(657 4309)" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.05" y="0">4.</tspan></text>
+      <text id="全端末へ配信" transform="translate(726 4309)" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-40.852" y="0">全端末へ配信</tspan></text>
+    </g>
+    <g id="グループ_2693" data-name="グループ 2693" transform="translate(0 -1)">
+      <rect id="長方形_3697" data-name="長方形 3697" width="173" height="40" transform="translate(635 4218)" fill="#fff"/>
+      <path id="長方形_3697_-_アウトライン" data-name="長方形 3697 - アウトライン" d="M2,2V38H171V2H2M0,0H173V40H0Z" transform="translate(635 4218)" fill="#d76b00"/>
+      <text id="_3." data-name="3." transform="translate(653 4243)" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.05" y="0">3.</tspan></text>
+      <text id="事前検証-2" data-name="事前検証" transform="translate(722 4243)" font-size="14" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-28" y="0">事前検証</tspan></text>
+    </g>
+    <g id="グループ_2695" data-name="グループ 2695" opacity="0.75">
+      <path id="線_381" data-name="線 381" d="M1020,.5H0v-1H1020Z" transform="translate(450.5 4467.5)"/>
+      <path id="パス_960" data-name="パス 960" d="M22,0V22H0Z" transform="translate(959.556 4451.944) rotate(45)"/>
+    </g>
+    <path id="長方形_3607" data-name="長方形 3607" d="M105,30a75,75,0,0,0,0,150H224.682a75,75,0,0,0,0-150H105m0-30H224.682a105,105,0,0,1,0,210H105A105,105,0,0,1,105,0Z" transform="translate(795.159 4505.407)" fill="#f1f1f1"/>
+    <path id="パス_961" data-name="パス 961" d="M47.016-5.105,84.7,84.043,1.487,81.234Z" transform="matrix(-0.839, 0.545, -0.545, -0.839, 914.483, 4550.13)" fill="#fff"/>
+    <rect id="長方形_3608" data-name="長方形 3608" width="46" height="37" transform="translate(868.039 4502.407)" fill="#fff"/>
+    <rect id="長方形_3609" data-name="長方形 3609" width="29" height="30" rx="3" transform="translate(902.961 4505.407)" fill="#f1f1f1"/>
+    <rect id="長方形_3701" data-name="長方形 3701" width="359" height="40" transform="translate(449 4510)" fill="#00b176"/>
+    <text id="ベンダーサイトから保守環境へ最新パッチの取り込み" transform="translate(469 4536)" fill="#fff" font-size="16" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">ベンダーサイトから保守環境へ最新パッチの取り込み</tspan></text>
+    <g id="グループ_2636" data-name="グループ 2636" transform="matrix(0.966, 0.259, -0.259, 0.966, 819.198, 4485.389)">
+      <g id="時間経過のアイコン_2" data-name="時間経過のアイコン 2" transform="translate(0 0)">
+        <path id="パス_811" data-name="パス 811" d="M41.5,65.353l11.3,7.041a5.384,5.384,0,0,0,4.814.512,4.131,4.131,0,0,0,2.607-3.559L65.089,5.6A5.28,5.28,0,0,0,62.517.859,5.261,5.261,0,0,0,57.125.643L2.055,33.113a4.122,4.122,0,0,0-2.045,3.9,5.343,5.343,0,0,0,2.584,4.1l14.431,8.989C12.854,62.025,39.539,72.6,41.5,65.353Z" transform="translate(0 0)" fill="#f1f1f1"/>
+      </g>
+    </g>
+    <g id="グループ_2696" data-name="グループ 2696" transform="translate(0 -2)">
+      <text id="保守環境での検証" transform="translate(891 4576)" font-size="18" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">保守環境での検証</tspan></text>
+      <text id="適用状況確認" transform="translate(906 4660)" font-size="18" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">適用状況確認</tspan></text>
+      <path id="パス_962" data-name="パス 962" d="M8.459,8.459H0v-1H7.459V0h1Z" transform="translate(959.608 4582.264) rotate(45)"/>
+      <path id="パス_963" data-name="パス 963" d="M8.459,8.459H0v-1H7.459V0h1Z" transform="translate(959.608 4623) rotate(45)"/>
+    </g>
+  </g>
+</svg>

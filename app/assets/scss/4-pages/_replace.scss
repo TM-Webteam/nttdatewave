@@ -1,0 +1,39 @@
+/*
+  ----------------
+  replace
+  ----------------
+*/
+
+.replace {
+
+  .group {
+    .lead {
+      @media #{$sp} {
+        margin-bottom: 80px;
+      }
+    }
+    .wrap {
+      &:not(:last-child) {
+        @media #{$sp} {
+          margin-bottom: 80px;
+        }
+      }
+      &__had {
+        max-width: 600px;
+        @media #{$sp} {
+          max-width: 85%;
+          top: -50px;
+        }
+      }
+      .more {
+        width: 600px;
+        @media #{$sp} {
+          width: 100%;
+          line-height: 1.5;
+          padding: 10px;
+        }
+      }
+    }
+  }
+  
+}

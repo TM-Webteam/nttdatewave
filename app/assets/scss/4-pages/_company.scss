@@ -1,0 +1,160 @@
+/*
+  ----------------
+  company
+  ----------------
+*/
+
+.company {
+
+  .corporate {
+    .lead {
+      color: #707070;
+      font-size: 16px;
+      margin-bottom: 60px;
+      @media #{$sp} {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    }
+    &__box {
+      border-top: 1px solid #000;
+      col {
+        &:first-child {
+          width: 25%;
+        }
+        &:last-child {
+          width: 75%;
+        }
+      }
+      tr {
+        border-bottom: 1px solid #ddd;
+        th,td {
+          padding: 20px;
+          @media #{$sp} {
+            padding: 15px;
+          }
+        }
+        th {
+          text-align: center;
+          background: #F7F7F7;
+        }
+        td {
+          text-align: left;
+          padding-left: 10%;
+          @media #{$sp} {
+            padding-left: 15px;
+          }
+          a {
+            color: #1558D6;
+            text-decoration: underline;
+            &:hover {
+              opacity: 1;
+              text-decoration: none;
+            }
+            &:not(:last-child) {
+              margin-bottom: 5px;
+            }
+          }
+          dl {
+            margin-bottom: 5px;
+            dt {
+              width: 130px;
+              @media #{$sp} {
+                width: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .history {
+    &__box {
+      background: #fff;
+      padding: 30px;
+      @media #{$sp} {
+        padding: 15px;
+      }
+      table {
+        max-width: 680px;
+        margin: 0 auto;
+        @media #{$sp} {
+          max-width: none;
+        }
+        col {
+          &:nth-child(1) {
+            width: 140px;
+            @media #{$sp} {
+              width: auto;
+            }
+          }
+          &:nth-child(2) {
+            width: calc(100% - 140px);
+            @media #{$sp} {
+              width: auto;
+            }
+          }
+        }
+        th,td {
+          line-height: 1.6;
+          border-bottom: 10px solid #fff;
+          @media #{$sp} {
+            border-bottom: 5px solid #fff;
+            display: block;
+          }
+        }
+        th {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-right: 40px;
+          @media #{$sp} {
+            padding-right: 20px;
+            justify-content: flex-start;
+          }
+          span {
+            @media #{$sp} {
+              margin-right: 1em;
+            }
+          }
+        }
+        td {
+          border-left: 1px solid #070F26;
+          padding-left: 40px;
+          @media #{$sp} {
+            padding-left: 20px;
+            border-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .stance {
+    .containers {
+      max-width: 870px;
+    }
+    .lead {
+      font-size: 16px;
+      color: #000;
+      @media #{$sp} {
+        font-size: 14px;
+      }
+    }
+    &__img {
+      margin-bottom: 30px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+    }
+    &__ttl {
+      font-size: 21px;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+      padding: 5px;
+      background: #070F26;
+    }
+  }
+}

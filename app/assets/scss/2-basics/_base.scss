@@ -1,0 +1,361 @@
+/*
+  ----------------
+  common styles
+  ----------------
+*/
+
+/*** 表示・非表示 ***/
+
+
+.pc-only-inline-block {
+  display: inline-block;
+  @media #{$sp} {
+    display: none;
+  }
+}
+
+
+/*** FlexBox ***/
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  @media #{$sp} {
+    align-items: center;
+    justify-content: center;
+  }
+  &.nowrap {
+    flex-wrap: nowrap;
+  }
+  &.inherit {
+    @media #{$sp} {
+      justify-content: space-between;
+      align-content: space-between;
+      align-items: stretch;
+    }
+  }
+  &.jcA {
+    justify-content: space-around;
+  }
+  &.sp-jcA {
+    @media #{$sp} {
+      justify-content: space-around;
+    }
+  }
+  &.jcC {
+    justify-content: center;
+  }
+  &.fS {
+    justify-content: flex-start;
+  }
+  &.sp-fS {
+    @media #{$sp} {
+      justify-content: flex-start;
+    }
+  }
+  &.aiC {
+    align-items: center;
+  }
+  &.aifS {
+    align-items: flex-start;
+  }
+  &.sp-aifS {
+    @media #{$sp} {
+      align-items: flex-start;
+    }
+  }
+  &.row-re {
+    flex-direction: row-reverse;
+  }
+  &.sp-row-re {
+    @media #{$sp} {
+      flex-direction: row-reverse;
+    }
+  }
+  &.sp-reverse {
+    @media #{$sp} {
+      flex-direction: column-reverse;
+    }
+  }
+  &.sp-sB {
+    @media #{$sp} {
+      justify-content: space-between;
+    }
+  }
+  &.gather {
+    &:after {
+      content:"";
+      display: block;
+      width:30.5%;
+    }
+  }
+}
+.sp-flex {
+  @media #{$sp} {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+  }
+}
+
+.core {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/***********/
+
+a,input[type="submit"] {
+	transition: all .3s;
+  &:hover {
+    opacity: .7;
+  }
+}
+
+/*** Container ***/
+
+.containers {
+	max-width: $container;
+	width: 100%;
+	margin: 0 auto;
+	padding: 70px 30px;
+	@media #{$sp} {
+		padding: 30px 15px;
+	}
+}
+.containers-full {
+  max-width: $container-full;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*** Shadow ***/
+
+.box-shadow {
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.txt-shadow {
+  text-shadow: 0 0 18px rgba(0,0,0,0.8);
+}
+
+/*** Scroll ***/
+
+.scroll {
+  @media #{$sp} {
+    overflow-x: scroll;
+  }
+}
+
+/*** Clearfix ***/
+
+.cf:before,
+.cf:after {
+  content:"";
+  display:block;
+  overflow:hidden;
+}
+.cf:after { clear:both; }
+.cf { 
+  zoom:1;
+  display: inline-table;
+}
+
+
+/*** その他 ***/
+
+main {
+  overflow: hidden;
+  padding-top: 146px;
+  @media #{$xl} {
+    padding-top: 132px;
+  }
+  @media #{$h-sp} {
+    padding-top: 55.36px;
+  }
+  &.column-single {
+    overflow: visible;
+  }
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.floating {
+  width: 300px;
+  display: none;
+  opacity: 0;
+  transition: all .3s;
+  @media #{$sp} {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    opacity: 1;
+  }
+  &.fixed {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    z-index: 99;
+    @media #{$sp} {
+      position: static;
+      top: auto;
+      right: auto;
+      z-index: 1;
+    }
+  }
+}
+
+.cat {
+  display: inline-block;
+  border: 1px solid #0080B1;
+  background: #fff;
+  color: #0080B1;
+  padding: 3px 20px;
+  border-radius: 23px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  @media #{$sp} {
+    font-size: 12px;
+    padding: 3px 15px;
+  }
+}
+
+// 2カラムの場合の親要素class名
+
+.Sidebar {
+  width: 300px;
+  @media #{$sp} {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .search {
+    width: 100%;
+    margin: 0 auto 30px;
+    @media #{$sp} {
+      width: 80%;
+      margin: 0 auto 20px;
+    }
+  }
+}
+
+.Contents {
+  width: calc(100% - 300px - 60px);
+  @media #{$sp} {
+    width: 100%;
+  }
+}
+
+// end
+
+
+.cube {
+  background-image: url("../img/common/bg-cube-top.svg"), url("../img/common/bg-cube-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  background-color: #fcfcfc;
+  @media #{$sp} {
+    background-size: 60%, 60%;
+  }
+}
+
+.bnr-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  display: none;
+  &.show {
+    display: block;
+    &.none {
+      display: none;
+    }
+  }
+  &__box {
+    position: relative;
+    background: linear-gradient(to right, #070F26, #43475A); 
+    padding: 15px 15px 5px;
+    @media #{$sp} {
+      padding: 10px;
+    }
+    &--img {
+      display: block;
+    }
+    &--close {
+      display: inline-block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      padding: 5px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      background-color:rgba(0,0,0,0.8);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      z-index: 21;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      @media #{$sp} {
+        top: 10px;
+        right: 10px;
+      }
+    }
+    .roundBtn__wrap {
+      display: block;
+      margin: 0 auto;
+      width: 450px;
+      @media #{$sp} {
+        width: 90%;
+      }
+      &:hover {
+        .more span::before {
+          background: url("../img/common/img-wp.png") 50% / contain no-repeat;
+          width: 135px;
+          height: 85px;
+          filter: drop-shadow(0 0px 5px #070f26);
+          @media #{$sp} {
+            width: 110px;
+            height: 60px;
+          }
+        }
+      }
+      .more {
+        padding: 10px 50px;
+        @media #{$sp} {
+          padding: 10px 30px;
+        }
+        span {
+          text-align: center;
+          padding-left: 0;
+          &::before {
+            left: -160px;
+            width: 124px;
+            height: 75px;
+            background: url("../img/common/img-wp.png") 50% / contain no-repeat;
+            @media #{$sp} {
+              left: -100px;
+              width: 100px;
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

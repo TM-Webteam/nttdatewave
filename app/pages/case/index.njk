@@ -1,0 +1,153 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="case">
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave"><span>導</span><span>入</span><span>事</span><span>例</span></h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">2003年のサービス開始より多くのお客様に選ばれてきた「Wave PC Mate」の実績・事例をご紹介します。</div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="containers">
+      <div class="flex gather">
+        <a href="/case/single/" class="card">
+          <figure class="card__img"><img src="/assets/img/case/img01.jpg" alt=""></figure>
+          <summary class="card__box">
+            <div class="card__box--txt">実績・事例タイトルが入ります。実績・事例タイトルが入ります。実績・事例タイトルが入ります。</div>
+            <div class="card__box--company">●●株式会社</div>
+            <div class="flex fS card__box--cat">
+              <span class="cat">サービス</span>
+              <span class="cat">60拠点</span>
+              <span class="cat">2,300台</span>
+            </div>
+          </summary>
+        </a>
+        <a href="/case/single/" class="card">
+          <figure class="card__img"><img src="/assets/img/case/img02.jpg" alt=""></figure>
+          <summary class="card__box">
+            <div class="card__box--txt">実績・事例タイトルが入ります。実績・事例タイトルが入ります。実績・事例タイトルが入ります。</div>
+            <div class="card__box--company">●●株式会社</div>
+            <div class="flex fS card__box--cat">
+              <span class="cat">サービス</span>
+              <span class="cat">60拠点</span>
+              <span class="cat">2,300台</span>
+            </div>
+          </summary>
+        </a>
+        <a href="/case/single/" class="card">
+          <figure class="card__img"><img src="/assets/img/case/img03.jpg" alt=""></figure>
+          <summary class="card__box">
+            <div class="card__box--txt">実績・事例タイトルが入ります。実績・事例タイトルが入ります。実績・事例タイトルが入ります。</div>
+            <div class="card__box--company">●●株式会社</div>
+            <div class="flex fS card__box--cat">
+              <span class="cat">サービス</span>
+              <span class="cat">60拠点</span>
+              <span class="cat">2,300台</span>
+            </div>
+          </summary>
+        </a>
+        <a href="/case/single/" class="card">
+          <figure class="card__img"><img src="/assets/img/case/img04.jpg" alt=""></figure>
+          <summary class="card__box">
+            <div class="card__box--txt">実績・事例タイトルが入ります。実績・事例タイトルが入ります。実績・事例タイトルが入ります。</div>
+            <div class="card__box--company">●●株式会社</div>
+            <div class="flex fS card__box--cat">
+              <span class="cat">サービス</span>
+              <span class="cat">60拠点</span>
+              <span class="cat">2,300台</span>
+            </div>
+          </summary>
+        </a>
+        <a href="/case/single/" class="card">
+          <figure class="card__img"><img src="/assets/img/case/img05.jpg" alt=""></figure>
+          <summary class="card__box">
+            <div class="card__box--txt">実績・事例タイトルが入ります。実績・事例タイトルが入ります。実績・事例タイトルが入ります。</div>
+            <div class="card__box--company">●●株式会社</div>
+            <div class="flex fS card__box--cat">
+              <span class="cat">サービス</span>
+              <span class="cat">60拠点</span>
+              <span class="cat">2,300台</span>
+            </div>
+          </summary>
+        </a>
+        <a href="/case/single/" class="card">
+          <figure class="card__img"><img src="/assets/img/case/img06.jpg" alt=""></figure>
+          <summary class="card__box">
+            <div class="card__box--txt">実績・事例タイトルが入ります。実績・事例タイトルが入ります。実績・事例タイトルが入ります。</div>
+            <div class="card__box--company">●●株式会社</div>
+            <div class="flex fS card__box--cat">
+              <span class="cat">サービス</span>
+              <span class="cat">60拠点</span>
+              <span class="cat">2,300台</span>
+            </div>
+          </summary>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="material bg-B">
+    <div class="containers">
+      <div class="flex item">
+        <figure class="item__img"><img src="/assets/img/common/img01.jpg" alt=""></figure>
+        <summary class="item__box">
+          <div class="item__box--txt">社内PCの管理でお悩みの企業様へ</div>
+          <div class="item__box--ttl">ホワイトペーパータイトルが入ります。ホワイトペーパータイトルが入ります。ホワイトペーパータイトルが入ります。</div>
+          <a href="/whitepaper/single/" class="more bg-o dl"><span>資料ダウンロードはこちら</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>実績・事例</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

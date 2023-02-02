@@ -1,0 +1,297 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="migration">
+
+  <section class="hero-lower core">
+    <div class="containers">
+      <div class="flex jcC ttl-secondary cW">
+        <span>Windows10機能更新プログラム<br class="sp-only">サポート終了</span>
+        <span>ハイブリッドワークに<br class="sp-only">最適！</span>
+      </div>
+      <h1 class="ttl-primary-s lower">
+        <p class="wave">Windows11・Microsoft365への</p>
+        <p class="wave">アップデート・移行をトータルサポート</p>
+      </h1>
+      <div class="flex jcC aiC hero-lower__box">
+        <figure class="hero-lower__img" data-aos="fade"><img src="/assets/img/common/img-hero-lower05.svg" alt="Windows11・Microsoft365へのアップデート・移行をトータルサポート"></figure>
+        <summary class="hero-lower__txt">OSアップデートや移行にかかる時間、労力を代行し、<br class="pc-only">本来の情報システム業務に注力できるようにサポートいたします。</summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">Windows11へのアップデート・Microsoft365への移行はお済ですか？</h2>
+      <ul class="flex inherit anc">
+        <li class="fadein">
+          <a href="#method01" class="anc__box">
+            <div class="anc__wrap">
+              <summary class="anc__box--txt">Windows10をご利用中の企業様へ</summary>
+            </div>
+          </a>
+        </li>
+        <li class="fadein">
+          <a href="#method02" class="anc__box">
+            <div class="anc__wrap">
+              <summary class="anc__box--txt">パッケージ版のOffice製品をお使いの企業様へ</summary>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="group">
+        <div id="method01" class="wrap">
+          <div class="wrap__had">Windows10をご利用中の企業様へ</div>
+          <h3 class="wrap__ttl">Windows11へのアップデートを<br class="sp-only">サポートします。</h3>
+          <div class="flex aiC wrap__box">
+            <figure class="wrap__box--img"><img src="/assets/img/migration/img-group01.svg" alt="Windows11へのアップデートをサポートします。"></figure>
+            <summary class="wrap__box--txt">Windows 10の機能更新プログラムは、2025年10月14日でサポート期間が終了となります。<br>サポート終了によって使えなくなるわけではありませんが、放置しておくと脆弱性が解消されず、マルウェアなどの攻撃に対して危険な状態となってしまいます。</summary>
+          </div>
+          <div class="wrap__tit">Windows11にアップグレードする<br class="sp-only">メリット</div>
+          <ul class="flex card">
+            <li class="card__box">
+              <div class="card__box--ttl"><span>サポート期間を延長できる</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card01.svg" alt="サポート期間を延長できる"></figure>
+              <summary class="card__box--txt">Windows11サポートにアップグレードすることでサポート期間を延長することが可能</summary>
+            </li>
+            <li class="card__box">
+              <div class="card__box--ttl"><span>作業効率が向上する</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card02.svg" alt="作業効率が向上する"></figure>
+              <summary class="card__box--txt">画面・ウィンドウのUIや改善や、音声入力の認識精度が向上により作業効率が向上</summary>
+            </li>
+            <li class="card__box">
+              <div class="card__box--ttl"><span>セキュリティを強化できる</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card03.svg" alt="セキュリティを強化できる"></figure>
+              <summary class="card__box--txt">Windows11では、セキュリティの要件が強化されており、マルウェアやサイバー攻撃からPCを保護することが可能</summary>
+            </li>
+          </ul>
+        </div>
+        <div class="items">
+          <div class="items__had">Wave PC Mateが、Windows11へのアップデートをサポートします。</div>
+          <div class="scroll">
+            <ul class="flex inherit items__wrap">
+              <li class="items__box">
+                <div class="items__box--ttl">Windows11アップデートにおける課題</div>
+                <ul class="items__box--list">
+                  <li>対象となるPC台数が多すぎて手が回らない。</li>
+                  <li>どのような進め方・スケジュール感で行えばいいかわからない。</li>
+                  <li>古いデバイスや特殊なソフトウェアが使えなくなるか不安。</li>
+                  <li>各クライアントPCへWindows 11 のアップデートがきちんと適用できているのか検証したい。</li>
+                </ul>
+              </li>
+              <li class="items__box">
+                <div class="items__box--ttl v2">移行計画の策定から実行までをサポートします。</div>
+                <ul class="items__box--list v2">
+                  <li>お客様のPC環境に合わせて、最適なアップデート方法のご提案</li>
+                  <li>実行計画に基づき、実行および管理をご支援</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="method02" class="wrap">
+          <div class="wrap__had">パッケージ版のOffice製品をお使いの企業様へ</div>
+          <h3 class="wrap__ttl">Office365からMicrosoft365への移行を<br class="sp-only">サポートします。</h3>
+          <div class="flex aiC wrap__box">
+            <figure class="wrap__box--img"><img src="/assets/img/migration/img-group02.svg" alt="Office365からMicrosoft365への移行をサポートします。"></figure>
+            <summary class="wrap__box--txt">Microsoft 365とは、常に最新のOfficeアプリを提供するサブスクリプションサービスです。料金体系の違いだけではなく、従来のOffice製品と比較して、常に最新のOffice製品を使えるため互換性の心配がなかったり、サポート終了の心配がないためMicrosoft 365に移行する企業が増えています。</summary>
+          </div>
+          <div class="wrap__tit">Microsoft365に移行する<br class="sp-only">メリット</div>
+          <ul class="flex card">
+            <li class="card__box v2">
+              <div class="card__box--ttl"><span>更新作業が不要</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card04.svg" alt="更新作業が不要"></figure>
+              <summary class="card__box--txt">Microsoft365はサブスクリプションサービスなので、更新作業不要で常に最新バージョンを利用可能</summary>
+            </li>
+            <li class="card__box v2">
+              <div class="card__box--ttl"><span>コストの最適化が図れる</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card05.svg" alt="コストの最適化が図れる"></figure>
+              <summary class="card__box--txt">Microsoft 365は、初期コストが不要のサブスクリプションなので最低限のコストで運用可能</summary>
+            </li>
+            <li class="card__box v2">
+              <div class="card__box--ttl"><span>どこでも作業可能</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card06.svg" alt="どこでも作業可能"></figure>
+              <summary class="card__box--txt">Microsoft365はクラウドサービスなので、時間・場所・デバイスに関係なく作業が可能</summary>
+            </li>
+            <li class="card__box v2">
+              <div class="card__box--ttl"><span>安心のセキュリティ</span></div>
+              <figure class="card__box--img"><img src="/assets/img/migration/img-card03.svg" alt="安心のセキュリティ"></figure>
+              <summary class="card__box--txt">Microsoft365はスパムやマルウェアの検出、情報漏えい防止など、高いセキュリティ環境を構築可能</summary>
+            </li>
+          </ul>
+        </div>
+        <div class="items">
+          <div class="items__had">Wave PC Mateが、Microsoft365への移行をサポートします。</div>
+          <div class="scroll">
+            <ul class="flex inherit items__wrap">
+              <li class="items__box">
+                <div class="items__box--ttl">Microsoft365移行における課題</div>
+                <ul class="items__box--list"><li>自社の要件にあった移行をしたい</li></ul>
+              </li>
+              <li class="items__box">
+                <div class="items__box--ttl v2">移行計画の策定から実行までをサポートします。</div>
+                <ul class="items__box--list v2"><li>お客様のOffice利用状況に合わせて、最適なライセンスのご提案</li></ul>
+              </li>
+            </ul>
+            <ul class="flex inherit items__wrap">
+              <li class="items__box">
+                <ul class="items__box--list"><li>どのような進め方・スケジュール感で行えばいいかわからない</li></ul>
+              </li>
+              <li class="items__box">
+                <ul class="items__box--list v2"><li>実行計画に基づき、実行および管理をご支援</li></ul>
+              </li>
+            </ul>
+            <ul class="flex inherit items__wrap">
+              <li class="items__box">
+                <ul class="items__box--list"><li>業務に必要なのですぐに利用できる状態で導入したい</li></ul>
+              </li>
+              <li class="items__box">
+                <ul class="items__box--list v2"><li>キッティングは弊社が対応</li></ul>
+              </li>
+            </ul>
+            <ul class="flex inherit items__wrap">
+              <li class="items__box">    
+                <ul class="items__box--list"><li>MS365(Officeの)バージョンアップ</li></ul>
+              </li>
+              <li class="items__box">
+                <ul class="items__box--list v2"><li>Windowsと合わせてMicrosoft365(Office)のバージョンアップ管理をサポート</li></ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateなら、PC運用業務をまとめてサポートいたします。</h2>
+      <div class="lead">Wave PC Mateは、OSのアップデートからMicrosoft365の移行をはじめ、<br class="pc-only">PC運用に関わるすべての業務をトータルサポートいたします。</div>
+      <div class="scroll">
+        <div class="flex inherit wrap" data-aos="fade">
+          <a href="/solution/service/" class="item v1">
+            <div class="item__ttl"><span>PCサービス</span></div>
+            <summary class="item__box">
+              <div class="item__box--lead">最適なPCおよび周辺機器を利用期間にあわせて<br>月額費用でご提供します。</div>
+              <ul class="flex inherit">
+                <li class="item__box--txt">PC貸し出し</li>
+                <li class="item__box--txt">ソフトウェア<br>提供</li>
+                <li class="item__box--txt">ハードウェア<br>保守</li>
+              </ul>
+            </summary>
+          </a>
+          <a href="/solution/setup/" class="item v2">
+            <div class="item__ttl v2"><span>セットアップ・デリバリーサービス</span></div>
+            <summary class="item__box">
+              <div class="item__box--lead">お客様固有の環境にセットアップした上で<br>お届けいたします。</div>
+              <ul class="flex inherit">
+                <li class="item__box--txt">マスタ制作</li>
+                <li class="item__box--txt">キッティング</li>
+                <li class="item__box--txt">デリバリー</li>
+              </ul>
+            </summary>
+          </a>
+        </div>
+        <div class="wrap"><figure class="circle"><img src="/assets/img/common/img-circle.svg" alt="ライフサイクル管理システム"></figure></div>
+        <div class="flex jcC wrap" data-aos="fade">
+          <a href="/solution/support/" class="item v3">
+            <div class="item__ttl v3"><span>サポートサービス</span></div>
+            <summary class="item__box">
+              <div class="item__box--lead">ヘルプデスク、セキュリティ対策、資産管理など<br>トータルでサポートいたします。</div>
+              <ul class="flex inherit">
+                <li class="item__box--txt v3">資産管理</li>
+                <li class="item__box--txt v3">ポータル</li>
+                <li class="item__box--txt v3">ヘルプデスク</li>
+                <li class="item__box--txt v3">配布</li>
+                <li class="item__box--txt v3">更新</li>
+                <li class="item__box--txt v3">セキュリティ</li>
+                <li class="item__box--txt v3">撤去</li>
+              </ul>
+            </summary>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="material bg-DB">
+    <div class="containers">
+      <div class="flex item">
+        <figure class="item__img" data-aos="flip-left"><img src="/assets/img/common/img02.png" alt="Wave PC Mateサービス資料"></figure>
+        <summary class="item__box">
+          <div class="item__box--txt">Wave PC Metaのサービス概要、 解決できる課題、<br class="pc-only">メリット・効果などがわかる！</div>
+          <div class="item__box--ttl">Wave PC Mateサービス資料</div>
+          <a href="/catalog/" class="more bg-o dl"><span>資料ダウンロードはこちら</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="work bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateなら、<br>PC運用管理におけるあらゆる課題を解決できます！</h2>
+      <div class="flex jcC">
+        <a href="/cost/" class="card core" data-aos="fade-down-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult01.svg" alt="PCの運用負荷やランニングコストを削減したい"></figure>
+          <div class="card__ttl">PCの運用負荷やランニングコストを削減したい</div>
+        </a>
+        <a href="/replace/" class="card core" data-aos="fade-down">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult02.svg" alt="PCリプレイスを予定しているが、セットアップが間に合わない・・・"></figure>
+          <div class="card__ttl">PCリプレイスを予定しているが、セットアップが間に合わない・・・</div>
+        </a>
+        <a href="/helpdesk/" class="card core" data-aos="fade-down-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult04.svg" alt="ヘルプデスク業務に忙殺されているので、なんとかしたい"></figure>
+          <div class="card__ttl">ヘルプデスク業務に忙殺されているので、なんとかしたい</div>
+        </a>
+        <a href="/migration/" class="card core" data-aos="fade-up-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult05.svg" alt="Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・"></figure>
+          <div class="card__ttl">Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・</div>
+        </a>
+        <a href="/ittl/" class="card core" data-aos="fade-up-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult06.svg" alt="ITILベースの運用管理を実現したい"></figure>
+          <div class="card__ttl">ITILベースの運用管理を実現したい</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

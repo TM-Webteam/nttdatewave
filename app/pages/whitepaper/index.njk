@@ -1,0 +1,71 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="whitepaper">
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave">お役立ち資料</h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">PC・ITインフラ業務の現場課題解決に役立つ資料が無料でダウンロードできます。</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="containers">
+      <a href="#" class="flex card fadein">
+        <figure class="card__img core"><img src="/assets/img/whitepaper/img01.jpg" alt=""></figure>
+        <summary class="card__box">
+          <div class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。</div>
+          <div class="card__box--txt">資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。</div>
+          <div class="more bg-o">ダウンロードはこちら</div>
+        </summary>
+      </a>
+      <a href="#" class="flex card fadein">
+        <figure class="card__img core"><img src="/assets/img/whitepaper/img02.jpg" alt=""></figure>
+        <summary class="card__box">
+          <div class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。</div>
+          <div class="card__box--txt">資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。</div>
+          <div class="more bg-o">ダウンロードはこちら</div>
+        </summary>
+      </a>
+      <a href="#" class="flex card fadein">
+        <figure class="card__img core"><img src="/assets/img/whitepaper/img03.jpg" alt=""></figure>
+        <summary class="card__box">
+          <div class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。</div>
+          <div class="card__box--txt">資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。資料説明文が入ります。</div>
+          <div class="more bg-o">ダウンロードはこちら</div>
+        </summary>
+      </a>
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>お役立ち資料</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

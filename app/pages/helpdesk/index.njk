@@ -1,0 +1,248 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="helpdesk">
+
+  <section class="hero-lower core">
+    <div class="containers">
+      <div class="ttl-secondary cW"><span>Wave PC Mateが解決できる課題</span></div>
+      <h1 class="ttl-primary-s lower wave">ヘルプデスク業務に忙殺されて困っている</h1>
+      <div class="flex jcC aiC hero-lower__box">
+        <figure class="hero-lower__img" data-aos="fade"><img src="/assets/img/common/img-hero-lower04.svg" alt="ヘルプデスク業務に忙殺されて困っている"></figure>
+        <summary class="hero-lower__txt">ヘルプデスク対応に時間がかかってしまい本来の業務に集中できない…社内の問合せにもスピーディーに対応しつつヘルプデスク業務を減らすにはどうすればいいでしょうか？</summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="roundBtn">
+    <div class="containers">
+      <a href="/catalog/" class="roundBtn__wrap" data-aos="fade-up">
+        <div class="roundBtn__wrap--outer"><span>PCに関するトラブルやサポートはすべてお任せ！<br><b>解決</b>のための方法が<b>3分</b>でわかる！</span></div>
+        <div class="more bg-o dl"><span><small>Wave PC Mateサービス資料</small><br>無料ダウンロードはこちら</span></div>
+        <div class="roundBtn__wrap--sidebar">お申込み後、リアルタイムでお送りいたします！</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">ヘルプデスク業務に忙殺される原因</h2>
+      <div class="lead">ヘルプデスク業務に忙殺される原因は、社員からの同じような問合せが<br class="pc-only">何度も発生してしまっていることが原因です。</div>
+      <ul class="flex anc">
+        <li class="fadein">
+          <a href="#method01" class="anc__box">
+            <div class="anc__box--ttl">原因 1</div>
+            <div class="anc__wrap">
+              <figure class="anc__box--img"><img src="/assets/img/helpdesk/img-anc01.jpg" alt="原因 1"></figure>
+              <summary class="anc__box--txt">社員からの問合せ対応に時間を取られて本来の業務に集中できない。</summary>
+            </div>
+          </a>
+        </li>
+        <li class="fadein">
+          <a href="#method02" class="anc__box">
+            <div class="anc__box--ttl">原因 2</div>
+            <div class="anc__wrap">
+              <figure class="anc__box--img"><img src="/assets/img/helpdesk/img-anc02.jpg" alt="原因 2"></figure>
+              <summary class="anc__box--txt">故障時の場合、利用現場まで訪問して修理する「オンサイト保守」に時間がとられている。</summary>
+            </div>
+          </a>
+        </li>
+        <li class="fadein">
+          <a href="#method03" class="anc__box">
+            <div class="anc__box--ttl">原因 3</div>
+            <div class="anc__wrap">
+              <figure class="anc__box--img"><img src="/assets/img/helpdesk/img-anc03.jpg" alt="原因 3"></figure>
+              <summary class="anc__box--txt">インシデント蓄積ができておらず、問合せ業務が属人化している。</summary>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="group">
+        <h2 class="ttl-secondary">ヘルプデスク業務を低減するためには</h2>
+        <div class="lead">Wave PC Mate は、ヘルプデスク、オンラインヘルプ、リモート障害対応など、<br class="pc-only">システム管理者の工数削減を実現するサポートをご用意しています。</div>
+        <div id="method01" class="wrap">
+          <div class="wrap__had">ヘルプデスク業務を低減する方法 1</div>
+          <h3 class="wrap__ttl">問合せ対応工数を削減する</h3>
+          <div class="wrap__lead">エンドユーザーから問合せを受け付けるヘルプデスクをアウトソーシングしたり、<br class="pc-only">専用のFAQサイトを活用することでシステム管理者の工数を大幅に削減することが可能です。</div>
+          <div class="flex wrap__box">
+            <figure class="wrap__box--img"><img src="/assets/img/helpdesk/img-group01.svg" alt="問合せ対応工数を削減する"></figure>
+            <summary class="wrap__box--txt">
+              <h4 class="ttl">Wave PC Mateのサポートサービス</h4>
+              <ul class="disc">
+                <li>経験豊富なスタッフが障害、移設運用等に関するご質問に対応（一次受けスタッフで90%以上の回答率）</li>
+                <li>業務マニュアルや障害復旧手順などが閲覧できるお客様専用のWebサイトをご提供</li>
+              </ul>
+            </summary>
+          </div>
+          <a href="/solution/support/" class="more">サポートサービスをもっと詳しく</a>
+        </div>
+        <div id="method02" class="wrap">
+          <div class="wrap__had">ヘルプデスク業務を低減する方法 2</div>
+          <h3 class="wrap__ttl">リモート保守・オンサイト保守のアウトソーシング体制を構築する</h3>
+          <div class="wrap__lead">故障・トラブル時に現場まで訪問して修理する「オンサイト保守」をアウトソーシングすることで<br class="pc-only">対応工数とダウンタイムを削減することが可能です。また、Wave PC Mateならリモートで障害対応支援もいたします。</div>
+          <div class="flex wrap__box">
+            <figure class="wrap__box--img"><img src="/assets/img/helpdesk/img-group02.svg" alt="リモート保守・オンサイト保守のアウトソーシング体制を構築する"></figure>
+            <summary class="wrap__box--txt">
+              <h4 class="ttl">Wave PC Mateのサポートサービス</h4>
+              <ul class="disc">
+                <li>オンサイトでの障害切り分け・復旧、予備機管理、ハードディスク暗号化など多種多様なオプションを準備</li>
+                <li>専門オペレータがお客様が利用しているPCにリモート接続し、障害復旧支援</li>
+                <li>PCのダウンタイムを削減し、お客様ビジネスの可用性向上</li>
+              </ul>
+            </summary>
+          </div>
+          <a href="/solution/support/" class="more">サポートサービスをもっと詳しく</a>
+        </div>
+        <div id="method03" class="wrap">
+          <div class="wrap__had">ヘルプデスク業務を低減する方法 3</div>
+          <h3 class="wrap__ttl">ITILベースの運用管理を実施する</h3>
+          <div class="wrap__lead">同じインシデントを繰り返し発生させないためには、IT資産や各種インシデント情報を一元的に統括・管理できる環境を作ることが必要です。</div>
+          <div class="flex wrap__box">
+            <figure class="wrap__box--img"><img src="/assets/img/helpdesk/img-group03.svg" alt=""></figure>
+            <summary class="wrap__box--txt">
+              <h4 class="ttl">Wave PC Mateが実現するITILベースの運用管理</h4>
+              <ul class="disc">
+                <li>ITILに準拠した「サービスサポート」と「サービスデリバリー」をご提供</li>
+                <li>高品質で低コスト、変化に柔軟な体制づくりをサポート</li>
+              </ul>
+            </summary>
+          </div>
+          <a href="/ittl/" class="more w55">ITILベースの運用管理について<br class="sp-only">もっと詳しく</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="material bg-DB">
+    <div class="containers">
+      <div class="flex item">
+        <figure class="item__img" data-aos="flip-left"><img src="/assets/img/common/img02.png" alt="Wave PC Mateサービス資料"></figure>
+        <summary class="item__box">
+          <div class="item__box--txt">Wave PC Metaのサービス概要、 解決できる課題、<br class="pc-only">メリット・効果などがわかる！</div>
+          <div class="item__box--ttl">Wave PC Mateサービス資料</div>
+          <a href="/catalog/" class="more bg-o dl"><span>資料ダウンロードはこちら</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="action bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">ヘルプデスクでは、窓口対応だけでなく<br class="pc-only">業務改善を日々実施しています。</h2>
+      <ul class="flex inherit">
+        <li class="action__box">
+          <figure class="action__box--img"><img src="/assets/img/helpdesk/img-action01.svg" alt="一次受けスタッフで90%以上の回答率"></figure>
+          <figcaption class="action__box--txt">一次受けスタッフで90%以上の回答率</figcaption>
+        </li>
+        <li class="action__box">
+          <figure class="action__box--img"><img src="/assets/img/helpdesk/img-action02.svg" alt="お客様と同じ機器の検証環境を準備"></figure>
+          <figcaption class="action__box--txt">お客様と同じ機器の検証環境を準備</figcaption>
+        </li>
+        <li class="action__box">
+          <figure class="action__box--img"><img src="/assets/img/helpdesk/img-action03.svg" alt="コールのモニタリング・評価分析"></figure>
+          <figcaption class="action__box--txt">コールのモニタリング・評価分析</figcaption>
+        </li>
+        <li class="action__box">
+          <figure class="action__box--img"><img src="/assets/img/helpdesk/img-action04.svg" alt="共通運用と顧客別運用を分離し厳格に管理"></figure>
+          <figcaption class="action__box--txt">共通運用と顧客別運用を分離し厳格に管理</figcaption>
+        </li>
+        <li class="action__box">
+          <figure class="action__box--img"><img src="/assets/img/helpdesk/img-action05.svg" alt="セキュリティを確保した環境よりリモート操作"></figure>
+          <figcaption class="action__box--txt">セキュリティを確保した環境よりリモート操作</figcaption>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="measures bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">徹底したセキュリティ対策</h2>
+      <div class="lead">お客様に安心してサービスをご利用いただくために、徹底したセキュリティ対策をおこなっています。</div>
+      <ul class="flex">
+        <li class="card fadein">
+          <div class="card__ttl">端末アクセスルーム</div>
+          <figure class="card__img"><img src="/assets/img/solution/support/img-measures01.jpg" alt="端末アクセスルーム"></figure>
+          <summary class="card__txt">お客様毎に区画分けされた厳重な<br>セキュリティブースでのリモート操作</summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">検証環境</div>
+          <figure class="card__img"><img src="/assets/img/solution/support/img-measures02.jpg" alt="検証環境"></figure>
+          <summary class="card__txt">お客様環境と同一機器を準備<br>スムーズなコミュニケーションを実現</summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">ヘルプデスク</div>
+          <figure class="card__img"><img src="/assets/img/solution/support/img-measures03.jpg" alt="ヘルプデスク"></figure>
+          <summary class="card__txt">コール対応状況の<br>モニタリングと評価改善</summary>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="work bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateなら、<br>PC運用管理におけるあらゆる課題を解決できます！</h2>
+      <div class="flex jcC">
+        <a href="/cost/" class="card core" data-aos="fade-down-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult01.svg" alt="PCの運用負荷やランニングコストを削減したい"></figure>
+          <div class="card__ttl">PCの運用負荷やランニングコストを削減したい</div>
+        </a>
+        <a href="/replace/" class="card core" data-aos="fade-down">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult02.svg" alt="PCリプレイスを予定しているが、セットアップが間に合わない・・・"></figure>
+          <div class="card__ttl">PCリプレイスを予定しているが、セットアップが間に合わない・・・</div>
+        </a>
+        <a href="/helpdesk/" class="card core" data-aos="fade-down-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult04.svg" alt="ヘルプデスク業務に忙殺されているので、なんとかしたい"></figure>
+          <div class="card__ttl">ヘルプデスク業務に忙殺されているので、なんとかしたい</div>
+        </a>
+        <a href="/migration/" class="card core" data-aos="fade-up-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult05.svg" alt="Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・"></figure>
+          <div class="card__ttl">Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・</div>
+        </a>
+        <a href="/ittl/" class="card core" data-aos="fade-up-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult06.svg" alt="ITILベースの運用管理を実現したい"></figure>
+          <div class="card__ttl">ITILベースの運用管理を実現したい</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

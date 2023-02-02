@@ -1,0 +1,91 @@
+/*
+  ----------------
+  whitepaper
+  ----------------
+*/
+
+.whitepaper {
+
+  .hero-m {
+    background: url("../img/whitepaper/bg-hero.webp") 50% / cover no-repeat;
+  }
+
+  .card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+      @media #{$sp} {
+        margin-bottom: 30px;
+      }
+    }
+    &__img {
+      width: 35%;
+      background: #F1F1F1;
+      padding: 45px;
+      margin: 0;
+      @media #{$sp} {
+        width: 100%;
+        padding: 30px;
+      }
+      img {
+        max-width: none;
+        width: auto;
+        height: 186px;
+        object-fit: contain;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        @media #{$sp} {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+    &__box {
+      width: 65%;
+      padding: 30px;
+      @media #{$sp} {
+        width: 100%;
+        padding: 15px;
+      }
+      &--ttl {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        @media #{$sp} {
+          font-size: 16px;
+          margin-bottom: 15px;
+        }
+      }
+      &--txt {
+        margin-bottom: 30px;
+        @media #{$sp} {
+          margin-bottom: 15px;
+        }
+      }
+      .more {
+        width: 300px;
+        margin: 0;
+        font-size: 16px;
+        transition: all .3s;
+        @media #{$sp} {
+          width: 85%;
+          margin: 0 auto;
+          font-size: 14px;
+        }
+      }
+    }
+    &:hover {
+      opacity: 1;
+      box-shadow: 0 0 10px rgba(59,72,111,0.8);
+      .more.bg-o {
+        background: #fff;
+        color: #F29600;
+        &::before {
+          background: url("../img/common/icon-arrow-o2.png") 50% / contain no-repeat;
+        }
+      }
+    }
+  }
+
+  
+}

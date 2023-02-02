@@ -1,0 +1,132 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="strength">
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave">Wave PC Mateが選ばれる理由</h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">Wave PC Mateは、PC運用管理業務に関わるTCO削減、<br class="pc-only">サポートが充実さから多くの企業様に選ばれています。</div>
+    </div>
+  </section>
+
+  <section class="alternate cube">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateが選ばれる3つの理由</h2>
+      <ul class="group">
+        <li class="flex aiC">
+          <figure class="group__img" data-aos="fade-right"><img src="/assets/img/strength/img-alternate01.jpg" alt="独自のセットアップツールでご利用者様でもリカバリ実施可能"></figure>
+          <summary class="group__box">
+            <div class="group__box--ttl">独自のセットアップツールで<br>ご利用者様でもリカバリ実施可能</div>
+            <div class="group__box--txt">PC故障時のリカバリ作業は、独自のセットアップツールによりクリック操作レベルで簡単に実行可能です。<br>システム管理者の対応工数削減だけでなく、トラブル時の復旧時間の短縮にも貢献いたします。</div>
+          </summary>
+        </li>
+        <li class="flex aiC sp-reverse">
+          <summary class="group__box">
+            <div class="group__box--ttl">専任のサービスマネージャーが<br>お客様と一丸となり課題解決</div>
+            <div class="group__box--txt">専任のサービスマネージャーが運用中に発生する課題問題をお客様と一緒に悩み・解決に導きます。<br>サービス全般をトータルマネージメントし、サービス品質の維持に努めます。</div>
+          </summary>
+          <figure class="group__img" data-aos="fade-left"><img src="/assets/img/strength/img-alternate02.jpg" alt="専任のサービスマネージャーがお客様と一丸となり課題解決"></figure>
+        </li>
+        <li class="flex aiC">
+          <figure class="group__img" data-aos="fade-right"><img src="/assets/img/strength/img-alternate03.jpg" alt="マルチベンダー対応だからお客様優位の機器選定が可能"></figure>
+          <summary class="group__box">
+            <div class="group__box--ttl">マルチベンダー対応だから<br>お客様優位の機器選定が可能</div>
+            <div class="group__box--txt">特定のベンダー製品に縛られず、お客様が必要とされる機器使用や保守条件など、各PCメーカー品を一括りで見積り・比較検討することが可能です。<br>ヘルプデスク対応もマルチベンダーで対応をします。</div>
+          </summary>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="compare bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">他社サービスとの違い</h2>
+      <div class="lead">Wave PC Mate は、PC運用管理業務のテンプレートを適用しています。<br>その結果PC運用管理、資産管理、セキュリティ管理、TCO削減に大きく貢献しています。</div>
+      <div class="scroll">
+        <figure class="compare__img"><img src="/assets/img/strength/img-strength.svg" alt="他社サービスとの違い"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="consult bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">以下のようなニーズ・お悩みをお持ちの企業様は<br>お気軽にご相談下さい！</h2>
+      <div class="flex">
+        <a href="/cost/" class="card core" data-aos="fade-down-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult01.svg" alt="PCの運用負荷やランニングコストを削減したい"></figure>
+          <div class="card__ttl">PCの運用負荷やランニングコストを削減したい</div>
+        </a>
+        <a href="/replace/" class="card core" data-aos="fade-down">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult02.svg" alt="PCリプレイを予定しているが、セットアップが間に合わない・・・"></figure>
+          <div class="card__ttl">PCリプレイを予定しているが、セットアップが間に合わない・・・</div>
+        </a>
+        <a href="/security/" class="card core" data-aos="fade-down-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult03.svg" alt="社内のセキュリティ対策を強化したい"></figure>
+          <div class="card__ttl">社内のセキュリティ対策を強化したい</div>
+        </a>
+        <a href="/helpdesk/" class="card core" data-aos="fade-up-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult04.svg" alt="ヘルプデスク業務に忙殺されているので、なんとかしたい"></figure>
+          <div class="card__ttl">ヘルプデスク業務に忙殺されているので、なんとかしたい</div>
+        </a>
+        <a href="/migration/" class="card core" data-aos="fade-up">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult05.svg" alt="Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・"></figure>
+          <div class="card__ttl">Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・</div>
+        </a>
+        <a href="/ittl/" class="card core" data-aos="fade-up-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult06.svg" alt="ITILベースの運用管理を実現したい"></figure>
+          <div class="card__ttl">ITILベースの運用管理を実現したい</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>選ばれる理由</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

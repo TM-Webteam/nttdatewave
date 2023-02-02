@@ -1,0 +1,123 @@
+/*
+  ----------------
+  case
+  ----------------
+*/
+
+.case {
+  .hero-m {
+    background: url("../img/case/bg-hero.webp") 50% / cover no-repeat;
+  }
+
+  .grid {
+    position: relative;
+    .containers {
+      @media #{$sp} {
+        padding: 30px 15px 60px;
+      }
+    }
+    .note {
+      text-align: right;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      @media #{$sp} {
+        bottom: 15px;
+        right: 15px;
+        font-size: 10px;
+      }
+    }
+    .flex.gather {
+      gap: 30px;
+      &::before {
+        content:"";
+        display: block;
+        width: calc(100% / 3 - 20px);
+        order: 1;
+        @media #{$sp} {
+          content: none;
+        }
+      }
+      &::after {
+        content:"";
+        display: block;
+        width: calc(100% / 3 - 20px);
+        @media #{$sp} {
+          content: none;
+        }
+      }
+    }
+    .card {
+      width: calc(100% / 3 - 20px);
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      position: relative;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      @media #{$sp} {
+        width: 100%;
+        padding: 15px;
+      }
+      &:not(:last-child) {
+        @media #{$sp} {
+          margin-bottom: 15px;
+        }
+      }
+      &::before {
+        content: " ";
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+        background: url("../img/common/icon-arrow.png") 50% / contain no-repeat;
+        transition: all .3s;
+      }
+      &:hover {
+        opacity: 1;
+        box-shadow: 0 0 10px rgba(59,72,111,0.8);
+        &::before {
+          right: 15px;
+        }
+      } 
+      &__img {
+
+      }
+      &__txt {
+        font-weight: bold;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+      &__company {
+        margin-bottom: 10px;
+        color: rgba(0,0,0,.5);
+      }
+      &__cat {
+        margin-top: auto;
+        .cat {
+          margin-bottom: 10px;
+          &:not(:last-child) {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    div.card {
+      pointer-events: none;
+      &::before {
+        content: none;
+      }
+    }
+  }
+
+  .pagination {
+    margin-top: 60px;
+    @media #{$sp} {
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,217 @@
+/*
+  ----------------
+  ボタン
+  ----------------
+*/
+.more {
+  display: block;
+  width: 400px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 20px 50px;
+	background: #070F26;
+	line-height: 1;
+  margin: 0 auto;
+  border-radius: 37px;
+  border: 2px solid #070F26;
+	position: relative;
+	@media #{$sp} {
+		font-size: 16px;
+    padding: 15px;
+    width: 85%;
+	}
+	&:before {
+		content: " ";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 15px;
+    width: 30px;
+    height: 30px;
+    background: url("../img/common/icon-arrow-b.png") 50% / contain no-repeat;
+    @media #{$sp} {
+      right: 10px;
+      width: 20px;
+      height: 20px;
+    }
+	}
+  &:hover {
+    opacity: 1;
+    background: #fff;
+    color: #070F26;
+    &:before {
+      background: url("../img/common/icon-arrow.png") 50% / contain no-repeat;
+    }
+  }
+  &.bg-o {
+    background: #F29600;
+    width: 500px;
+    border: 2px solid #F29600;
+    @media #{$sp} {
+      width: 100%;
+      font-size: 14px;
+    }
+    &::before {
+      background: url("../img/common/icon-arrow-o.png") 50% / contain no-repeat;
+    }
+    &:hover {
+      opacity: 1;
+      background: #fff;
+      color: #F29600;
+      &::before {
+        background: url("../img/common/icon-arrow-o2.png") 50% / contain no-repeat;
+      }
+    }
+  }
+  &.bg-w {
+    background: #fff;
+    border: 2px solid #fff;
+    color: #070F26;
+    @media #{$sp} {
+      width: 100%;
+      font-size: 14px;
+    }
+    &::before {
+      background: url("../img/common/icon-arrow.png") 50% / contain no-repeat;
+    }
+    &:hover {
+      opacity: 1;
+      background: #070F26;
+      color: #fff;
+      &::before {
+        background: url("../img/common/icon-arrow-b.png") 50% / contain no-repeat;
+      }
+    }
+  }
+  &.mail {
+    span {
+      display: inline-block;
+      position: relative;
+      padding-left: 40px;
+      @media #{$sp} {
+        padding-left: 30px;
+      }
+      &::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 25px;
+        height: 20px;
+        background: url('../img/common/icon-mail.svg') 50% / contain no-repeat;
+        transition: all .3s;
+        @media #{$sp} {
+          width: 20px;
+        }
+      }
+    }
+    &:hover {
+      span {
+        &::before {
+          background: url('../img/common/icon-mail-hover.svg') 50% / contain no-repeat;
+        }
+      }
+    }
+  }
+  &.dl {
+    span {
+      display: inline-block;
+      position: relative;
+      padding-left: 40px;
+      @media #{$sp} {
+        padding-left: 30px;
+      }
+      &::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 17px;
+        height: 21px;
+        background: url('../img/common/icon-dl.svg') 50% / contain no-repeat;
+        transition: all .3s;
+        @media #{$sp} {
+          width: 20px;
+        }
+      }
+    }
+    &:hover {
+      span {
+        &::before {
+          background: url('../img/common/icon-dl-hover.svg') 50% / contain no-repeat;
+        }
+      }
+    }
+  }
+  .tiny {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  &__note {
+    color: #ff8314;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    // text-shadow: #fff 0 0 10px;
+    margin-top: 5px;
+    max-width: 440px;
+  }
+}
+
+.calling {
+  max-width: 440px;
+  margin-bottom: 10px;
+  color: #fff;
+  // text-shadow: #bf3278 0 0 10px;
+  font-size: 18px;
+  @media #{$sp} {
+    font-size: 14px;
+  }
+  span {
+    position: relative;
+    &::before {
+      content: "";
+      display: inline-block;
+      margin-right: 3px;
+      width: 20px;
+      height: 2px;
+      background-color: #ff8314;
+      transform: rotate(60deg);
+      vertical-align: 0.3em;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      margin-left: 3px;
+      width: 20px;
+      height: 2px;
+      background-color: #ff8314;
+      transform: rotate(-60deg);
+      vertical-align: 0.3em;
+    }
+  }
+}
+
+.tel {
+	display: inline-block;
+	color: #727272;
+	font-family: "DINOT";
+	font-size: 44px;
+	font-weight: 700;
+	background: url('../img/info_telephone.png') left top 60% no-repeat;
+	background-size: 12%;
+	padding-left: 50px;
+	@media #{$sp} {
+		font-size: 24px;
+		padding-left: 30px;
+	}
+}

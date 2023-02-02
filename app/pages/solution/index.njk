@@ -1,0 +1,197 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="solution">
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave"><span>ソ</span><span>リ</span><span>ュ</span><span>ー</span><span>シ</span><span>ョ</span><span>ン</span><span>一</span><span>覧</span></h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">企業のITインフラ管理をワンストップでサポートいたします。</div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateとは？</h2>
+      <div class="lead">ハードウェア・ソフトウェアの調達、セットアップ・デリバリ、運用管理、保守、撤去までを含めたPC運用管理を<br>ワンストップで提供するトータルアウトソーシングサービス です。</div>
+      <div class="scroll">
+        <div class="flex inherit wrap" data-aos="fade">
+          <a href="/solution/service/" class="item v1">
+            <div class="item__ttl"><span>PCサービス</span></div>
+            <summary class="item__box">
+              <div class="item__box--lead">最適なPCおよび周辺機器を利用期間にあわせて<br>月額費用でご提供します。</div>
+              <ul class="flex inherit">
+                <li class="item__box--txt">PC貸し出し</li>
+                <li class="item__box--txt">ソフトウェア<br>提供</li>
+                <li class="item__box--txt">ハードウェア<br>保守</li>
+              </ul>
+            </summary>
+          </a>
+          <a href="/solution/setup/" class="item v2">
+            <div class="item__ttl v2"><span>セットアップ・デリバリーサービス</span></div>
+            <summary class="item__box">
+              <div class="item__box--lead">お客様固有の環境にセットアップした上で<br>お届けいたします。</div>
+              <ul class="flex inherit">
+                <li class="item__box--txt">マスタ制作</li>
+                <li class="item__box--txt">キッティング</li>
+                <li class="item__box--txt">デリバリー</li>
+              </ul>
+            </summary>
+          </a>
+        </div>
+        <div class="wrap"><figure class="circle"><img src="/assets/img/common/img-circle.svg" alt="ライフサイクル管理システム"></figure></div>
+        <div class="flex jcC wrap" data-aos="fade">
+          <a href="/solution/support/" class="item v3">
+            <div class="item__ttl v3"><span>サポートサービス</span></div>
+            <summary class="item__box">
+              <div class="item__box--lead">ヘルプデスク、セキュリティ対策、資産管理など<br>トータルでサポートいたします。</div>
+              <ul class="flex inherit">
+                <li class="item__box--txt v3">資産管理</li>
+                <li class="item__box--txt v3">ポータル</li>
+                <li class="item__box--txt v3">ヘルプデスク</li>
+                <li class="item__box--txt v3">配布</li>
+                <li class="item__box--txt v3">更新</li>
+                <li class="item__box--txt v3">セキュリティ</li>
+                <li class="item__box--txt v3">撤去</li>
+              </ul>
+            </summary>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="meritConts bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">導入効果・メリット</h2>
+      <div class="lead">Wave PC Mate の標準サービスは、月額サービス料金のみ企業のITインフラ管理をワンストップでサポート。<br>コスト削減や運用負荷軽減など多くのメリットがあります。</div>
+      <ul class="flex">
+        <li class="card fadein">
+          <div class="card__ttl">コスト削減・ファイナンスに</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit01.svg" alt="コスト削減・ファイナンスに"></figure>
+            <ul class="card__box--txt">
+              <li>PC運用全般に渡る質の高いサービスの提供により、PC運用コスト削減</li>
+              <li>月額定額制で明確なコスト管理を実現</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">システム管理者の運用負荷軽減</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit02.svg" alt="システム管理者の運用負荷軽減"></figure>
+            <ul class="card__box--txt">
+              <li>各種インシデントの管理・分析等は弊社ヘルプデスクが対応</li>
+              <li>ウイルス対策、パッチ適用等社内のセキュリティレベルを担保</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">安心・快適なオフィス環境</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit03.svg" alt="安心・快適なオフィス環境"></figure>
+            <ul class="card__box--txt">
+              <li>各種問合せや障害連絡等の窓口を一元化し、経験豊富なスタッフが対応</li>
+              <li>オペレータが障害復旧支援や対処方法をリモートにて支援</li>
+            </ul>
+          </summary>
+        </li>
+      </ul>
+      <a href="/merit/" class="more">全ての導入効果・メリットを見る</a>
+    </div>
+  </section>
+
+  <section class="material bg-DB">
+    <div class="containers">
+      <div class="flex item">
+        <figure class="item__img" data-aos="flip-left"><img src="/assets/img/common/img02.png" alt="Wave PC Mateサービス資料"></figure>
+        <summary class="item__box">
+          <div class="item__box--txt">Wave PC Metaのサービス概要、 解決できる課題、<br>メリット・効果などがわかる！</div>
+          <div class="item__box--ttl">Wave PC Mateサービス資料</div>
+          <a href="/catalog/" class="more bg-o dl"><span>資料ダウンロードはこちら</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="consult bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">以下のようなニーズ・お悩みをお持ちの企業様は<br>お気軽にご相談下さい！</h2>
+      <div class="flex">
+        <a href="/cost/" class="card core" data-aos="fade-down-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult01.svg" alt="PCの運用負荷やランニングコストを削減したい"></figure>
+          <div class="card__ttl">PCの運用負荷やランニングコストを削減したい</div>
+        </a>
+        <a href="/replace/" class="card core" data-aos="fade-down">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult02.svg" alt="PCリプレイを予定しているが、セットアップが間に合わない・・・"></figure>
+          <div class="card__ttl">PCリプレイスを予定しているが、セットアップが間に合わない・・・</div>
+        </a>
+        <a href="/security/" class="card core" data-aos="fade-down-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult03.svg" alt="社内のセキュリティ対策を強化したい"></figure>
+          <div class="card__ttl">社内のセキュリティ対策を強化したい</div>
+        </a>
+        <a href="/helpdesk/" class="card core" data-aos="fade-up-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult04.svg" alt="ヘルプデスク業務に忙殺されているので、なんとかしたい"></figure>
+          <div class="card__ttl">ヘルプデスク業務に忙殺されているので、なんとかしたい</div>
+        </a>
+        <a href="/migration/" class="card core" data-aos="fade-up">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult05.svg" alt="Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・"></figure>
+          <div class="card__ttl">Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・</div>
+        </a>
+        <a href="/ittl/" class="card core" data-aos="fade-up-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult06.svg" alt="ITILベースの運用管理を実現したい"></figure>
+          <div class="card__ttl">ITILベースの運用管理を実現したい</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>ソリューション一覧</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

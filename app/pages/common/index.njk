@@ -1,0 +1,430 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main>
+
+  <section class="hero-s core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave">個人情報保護方針</h1>
+    </div>
+  </section>
+
+  <section class="hero-m core">
+    <div class="containers">
+      <h1 class="ttl-primary-s wave">ご相談・お見積り</h1>
+      <div class="ttl-catch" data-aos="fade" data-aos-delay="600">Wave PC Mateに関するご相談やお見積りはお気軽にご連絡ください。</div>
+    </div>
+  </section>
+
+  <section class="serviceConts bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateのサービス内容</h2>
+      <div class="flex">
+        <a href="/solution/service/" class="card fadein">
+          <figure class="card__img"><img src="/assets/img/common/img-serviceConts01.jpg" alt="PCサービス"></figure>
+          <summary class="card__box">
+            <div class="card__box--ttl"><span>PCサービス</span></div>
+            <div class="card__box--txt">最適なPCおよび周辺機器を利用期間にあわせて月額費用でご提供します。</div>
+          </summary>
+        </a>
+        <a href="/solution/setup/" class="card fadein">
+          <figure class="card__img"><img src="/assets/img/common/img-serviceConts02.jpg" alt="セットアップ / デリバリサービス"></figure>
+          <summary class="card__box">
+            <div class="card__box--ttl"><span>セットアップ / デリバリサービス</span></div>
+            <div class="card__box--txt">お客様固有の環境にセットアップした上でお届けいたします。</div>
+          </summary>
+        </a>
+        <a href="/solution/support/" class="card fadein">
+          <figure class="card__img"><img src="/assets/img/common/img-serviceConts03.jpg" alt="サポートサービス"></figure>
+          <summary class="card__box">
+            <div class="card__box--ttl"><span>サポートサービス</span></div>
+            <div class="card__box--txt">ヘルプデスク、セキュリティ対策、資産管理などトータルでサポートいたします。</div>
+          </summary>
+        </a>
+      </div>
+      <a href="/solution/" class="more">ソリューションMAPを見る</a>
+    </div>
+  </section>
+
+  <section class="caseConts">
+    <div class="containers">
+      <h2 class="ttl-secondary">サービス運用実績20年以上！<br>多くの企業様にご評価いただいています。</h2>
+      <div class="flex">
+        <div class="wrap fadein">
+          <ul class="flex fS group">
+            <li class="cat">サービス</li>
+            <li class="cat">60拠点</li>
+            <li class="cat">2,300台</li>
+          </ul>
+          <a href="/case/single/" class="flex card">
+            <figure class="card__img"><img src="/assets/img/common/img-caseConts01.jpg" alt=""></figure>
+            <summary class="card__box">
+              <div class="card__box--ttl">事例タイトルが入ります。事例タイトルが入ります。事例タイトルが入ります。</div>
+              <div class="card__box--company">●●株式会社</div>
+            </summary>
+          </a>
+        </div>
+        <div class="wrap fadein">
+          <ul class="flex fS group">
+            <li class="cat">サービス</li>
+            <li class="cat">60拠点</li>
+            <li class="cat">2,300台</li>
+          </ul>
+          <a href="/case/single/" class="flex card">
+            <figure class="card__img"><img src="/assets/img/common/img-caseConts02.jpg" alt=""></figure>
+            <summary class="card__box">
+              <div class="card__box--ttl">事例タイトルが入ります。事例タイトルが入ります。事例タイトルが入ります。</div>
+              <div class="card__box--company">●●株式会社</div>
+            </summary>
+          </a>
+        </div>
+      </div>
+      <a href="/case/" class="more">導入事例を見る</a>
+    </div>
+  </section>
+
+  <section class="supportConts">
+    <div class="containers">
+      <h2 class="ttl-secondary">お客様にお手間をかけることなく<br>スムーズな導入をサポートいたします。</h2>
+      <figure class="supportConts__img fadein">
+        <img src="/assets/img/common/img-flow.png" alt="お客様にお手間をかけることなくスムーズな導入をサポートいたします。" class="pc-only">
+        <img src="/assets/img/common/img-flow-sp.png" alt="お客様にお手間をかけることなくスムーズな導入をサポートいたします。" class="sp-only">
+      </figure>
+      <div class="lead">まず、<span class="marker">お客様システムへの適合性診断と、効果的に導入いただくための<br class="pc-only">コンサルティングを無料で実施</span>させていただきます。お気軽にお問合せ下さい。</div>
+      <a href="/contact/" class="more bg-o mail"><span>お問合せ・お見積りはこちら（無料）</span></a>
+    </div>
+  </section>
+
+  <section class="infoConts">
+    <div class="containers-full">
+      <div class="flex">
+        <a href="/catalog/" class="item" data-aos="fade-right" data-aos-delay="100">
+          <div class="item__box left">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-dl.png" alt="サービス資料ダウンロード"></figure>
+            <div class="item__box--txt"><span>サービス資料ダウンロード</span></div>
+          </div>
+        </a>
+        <a href="/contact/" class="item" data-aos="fade-left" data-aos-delay="100">
+          <div class="item__box right">
+            <figure class="item__box--img"><img src="/assets/img/common/icon-mail.png" alt="ご相談・お見積り"></figure>
+            <div class="item__box--txt"><span>ご相談・お見積り</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="pagination">
+		<div class="nav-links">
+      <a class="prev page-numbers" href="#"><span></span></a>
+      <a class="page-numbers" href="#">1</a>
+      <span class="page-numbers current">2</span>
+      <a class="page-numbers" href="#">3</a>
+      <a class="next page-numbers" href="#"><span></span></a>
+    </div>
+	</nav>
+
+  <section class="breadcrumb">
+    <div class="containers">
+      <ul class="flex fS">
+        <li><a href="/">トップ</a></li>
+        <li>お役立ちコラム</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="material bg-B">
+    <div class="containers">
+      <div class="flex item">
+        <figure class="item__img" data-aos="flip-left"><img src="/assets/img/common/img01.jpg" alt=""></figure>
+        <summary class="item__box">
+          <div class="item__box--txt">社内PCの管理でお悩みの企業様へ</div>
+          <div class="item__box--ttl">ホワイトペーパータイトルが入ります。ホワイトペーパータイトルが入ります。ホワイトペーパータイトルが入ります。</div>
+          <a href="/catalog/" class="more bg-o dl"><span>資料ダウンロードはこちら</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="alternate cube">
+    <div class="containers">
+      <h2 class="ttl-secondary">導入メリット</h2>
+      <div class="lead">Wave PC Mateのサービスは、マネージメント層、システム管理者、働く社員のすべての方々に<br class="pc-only">多くのメリットがあります。</div>
+      <ul class="group">
+        <li class="flex aiC">
+          <figure class="group__img" data-aos="fade-right"><img src="/assets/img/merit/img-alternate01.jpg" alt="運用コストの見える化・TCO削減"></figure>
+          <summary class="group__box">
+            <div class="group__box--had"><span>経営層</span></div>
+            <div class="group__box--ttl">運用コストの見える化・TCO削減</div>
+            <div class="group__box--txt">
+              <ul>
+                <li>PC運用全般に渡る質の高いサービスの提供により、TCO削減が図れます。</li>
+                <li>月額定額制で明確なコスト管理を実現。新たな投資の必要なく、毎月定額のサービス料として費用化が可能です。</li>
+              </ul>
+            </div>
+          </summary>
+        </li>
+        <li class="flex aiC sp-reverse">
+          <summary class="group__box">
+            <div class="group__box--had"><span>システム管理者</span></div>
+            <div class="group__box--ttl">運用負荷の軽減</div>
+            <div class="group__box--txt">
+              <ul>
+                <li>各種インシデントの管理・分析等・改善策の提案まで行うため、システム管理者の負荷は大幅に軽減されます。</li>
+                <li>パッチ・ウイルス対策ソフトの定義ファイルの適用や、ウイルス感染状況の監視と回復のためのテクニカル支援を行います。 </li>
+              </ul>
+            </div>
+          </summary>
+          <figure class="group__img" data-aos="fade-left"><img src="/assets/img/merit/img-alternate02.jpg" alt="運用負荷の軽減"></figure>
+        </li>
+        <li class="flex aiC">
+          <figure class="group__img" data-aos="fade-right"><img src="/assets/img/merit/img-alternate03.jpg" alt="問合せ・トラブルに対する迅速な対応"></figure>
+          <summary class="group__box">
+            <div class="group__box--had"><span>社員</span></div>
+            <div class="group__box--ttl">問合せ・トラブルに対する迅速な対応</div>
+            <div class="group__box--txt">
+              <ul>
+                <li>業務マニュアルや障害復旧手順に関する客様専用Webサイトを提供し、エンドユーザの自己解決支援を行います。</li>
+                <li>各種問い合わせや障害連絡等の窓口を一元化し、経験豊富なスタッフが迅速に対応します。</li>
+              </ul>
+            </div>
+          </summary>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="meritConts">
+    <div class="containers">
+      <h2 class="ttl-secondary">導入効果・メリット</h2>
+      <div class="lead">Wave PC Mate の標準サービスは、月額サービス料金のみ企業のITインフラ管理をワンストップでサポート。<br>コスト削減や運用負荷軽減など多くのメリットがあります。</div>
+      <ul class="flex">
+        <li class="card fadein">
+          <div class="card__ttl">コスト削減・ファイナンスに</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit01.svg" alt="コスト削減・ファイナンスに"></figure>
+            <ul class="card__box--txt">
+              <li>PC運用全般に渡る質の高いサービスの提供により、PC運用コスト削減</li>
+              <li>月額定額制で明確なコスト管理を実現</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">システム管理者の運用負荷軽減</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit02.svg" alt="システム管理者の運用負荷軽減"></figure>
+            <ul class="card__box--txt">
+              <li>各種インシデントの管理・分析等は弊社ヘルプデスクが対応</li>
+              <li>ウイルス対策、パッチ適用等社内のセキュリティレベルを担保</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card fadein">
+          <div class="card__ttl">安心・快適なオフィス環境</div>
+          <summary class="card__box">
+            <figure class="card__box--img"><img src="/assets/img/common/icon-merit03.svg" alt="安心・快適なオフィス環境"></figure>
+            <ul class="card__box--txt">
+              <li>各種問合せや障害連絡等の窓口を一元化し、経験豊富なスタッフが対応</li>
+              <li>オペレータが障害復旧支援や対処方法をリモートにて支援</li>
+            </ul>
+          </summary>
+        </li>
+      </ul>
+      <a href="/merit/" class="more">全ての導入効果・メリットを見る</a>
+    </div>
+  </section>
+
+  <section class="consult bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">以下のようなニーズ・お悩みをお持ちの企業様は<br>お気軽にご相談下さい！</h2>
+      <div class="flex">
+        <a href="/cost/" class="card core" data-aos="fade-down-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult01.svg" alt="PCの運用負荷やランニングコストを削減したい"></figure>
+          <div class="card__ttl">PCの運用負荷やランニングコストを削減したい</div>
+        </a>
+        <a href="/replace/" class="card core" data-aos="fade-down">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult02.svg" alt="PCリプレイスを予定しているが、セットアップが間に合わない・・・"></figure>
+          <div class="card__ttl">PCリプレイスを予定しているが、セットアップが間に合わない・・・</div>
+        </a>
+        <a href="/security/" class="card core" data-aos="fade-down-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult03.svg" alt="社内のセキュリティ対策を強化したい"></figure>
+          <div class="card__ttl">社内のセキュリティ対策を強化したい</div>
+        </a>
+        <a href="/helpdesk/" class="card core" data-aos="fade-up-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult04.svg" alt="ヘルプデスク業務に忙殺されているので、なんとかしたい"></figure>
+          <div class="card__ttl">ヘルプデスク業務に忙殺されているので、なんとかしたい</div>
+        </a>
+        <a href="/migration/" class="card core" data-aos="fade-up">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult05.svg" alt="Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・"></figure>
+          <div class="card__ttl">Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・</div>
+        </a>
+        <a href="/ittl/" class="card core" data-aos="fade-up-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult06.svg" alt="ITILベースの運用管理を実現したい"></figure>
+          <div class="card__ttl">ITILベースの運用管理を実現したい</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="work bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateなら、<br>PC運用管理におけるあらゆる課題を解決できます！</h2>
+      <div class="flex jcC">
+        <a href="/cost/" class="card core" data-aos="fade-down-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult01.svg" alt="PCの運用負荷やランニングコストを削減したい"></figure>
+          <div class="card__ttl">PCの運用負荷やランニングコストを削減したい</div>
+        </a>
+        <a href="/replace/" class="card core" data-aos="fade-down">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult02.svg" alt="PCリプレイスを予定しているが、セットアップが間に合わない・・・"></figure>
+          <div class="card__ttl">PCリプレイスを予定しているが、セットアップが間に合わない・・・</div>
+        </a>
+        <a href="/helpdesk/" class="card core" data-aos="fade-down-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult04.svg" alt="ヘルプデスク業務に忙殺されているので、なんとかしたい"></figure>
+          <div class="card__ttl">ヘルプデスク業務に忙殺されているので、なんとかしたい</div>
+        </a>
+        <a href="/migration/" class="card core" data-aos="fade-up-right">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult05.svg" alt="Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・"></figure>
+          <div class="card__ttl">Windows11やMicrosoft365への移行をしたいが台数が多くて大変・・・</div>
+        </a>
+        <a href="/ittl/" class="card core" data-aos="fade-up-left">
+          <figure class="card__img"><img src="/assets/img/common/icon-consult06.svg" alt="ITILベースの運用管理を実現したい"></figure>
+          <div class="card__ttl">ITILベースの運用管理を実現したい</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="roundBtn">
+    <div class="containers">
+      <a href="/catalog/" class="roundBtn__wrap" data-aos="fade-up">
+        <div class="roundBtn__wrap--outer"><span>年間約70%のコスト削減事例も！<br><b>解決</b>のための方法が<b>3分</b>でわかる！</span></div>
+        <div class="more bg-o dl"><span><small>Wave PC Mateサービス資料</small><br>無料ダウンロードはこちら</span></div>
+        <div class="roundBtn__wrap--sidebar">お申込み後、リアルタイムでお送りいたします！</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="hero-lower core">
+    <div class="containers">
+      <div class="ttl-secondary cW"><span>Wave PC Mateが解決できる課題</span></div>
+      <h1 class="ttl-primary-s lower wave">PCの運用負荷やランニングコストを低減したい</h1>
+      <div class="flex jcC aiC hero-lower__box">
+        <figure class="hero-lower__img" data-aos="fade"><img src="/assets/img/common/img-hero-lower01.svg" alt="PCの運用負荷やランニングコストを低減したい"></figure>
+        <summary class="hero-lower__txt">社員の増加やリモートワーク増加に伴い、年々増加するPCの運用に関するコスト。オフバランス（費用化）しながらランニングコストを削減する方法はないのでしょうか？</summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">PCの運用負荷やランニングコストが増加する原因</h2>
+      <div class="lead">運用負荷やランニングコストが増加する主な原因はどこにあるのでしょうか？<br>それは、事業の拡大にともなう業務の肥大化や、ITの資産・運用経費が管理ができていないことに原因があります。</div>
+      <ul class="flex anc">
+        <li class="fadein">
+          <a href="#method01" class="anc__box">
+            <div class="anc__box--ttl">原因 1</div>
+            <div class="anc__wrap">
+              <figure class="anc__box--img"><img src="/assets/img/cost/img-anc01.jpg" alt="原因 1"></figure>
+              <summary class="anc__box--txt">IT資産及びその運用経費が把握できていないため、無駄なコストが発生している。</summary>
+            </div>
+          </a>
+        </li>
+        <li class="fadein">
+          <a href="#method02" class="anc__box">
+            <div class="anc__box--ttl">原因 2</div>
+            <div class="anc__wrap">
+              <figure class="anc__box--img"><img src="/assets/img/cost/img-anc02.jpg" alt="原因 2"></figure>
+              <summary class="anc__box--txt">拠点や社員が増加、リモートワークも増えて、ユーザーからの問合せ対応が増加している。</summary>
+            </div>
+          </a>
+        </li>
+        <li class="fadein">
+          <a href="#method03" class="anc__box">
+            <div class="anc__box--ttl">原因 3</div>
+            <div class="anc__wrap">
+              <figure class="anc__box--img"><img src="/assets/img/cost/img-anc03.jpg" alt="原因 3"></figure>
+              <summary class="anc__box--txt">OSやウィルス対策ソフト、各種ソフトウェア等のセキュリティ更新作業が肥大化している。</summary>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="group">
+        <h2 class="ttl-secondary">PCの運用負荷やランニングコストを低減するためには</h2>
+        <div class="lead">Wave PC Mateをご利用いただくことで、お客様が日々対応しているPC運用管理、エンドユーザサポート業務など<br>PCに関わる一連の業務負荷を軽減することができます。 </div>
+        <div id="method01" class="wrap">
+          <div class="wrap__had">運用負荷・コストを削減する方法 1</div>
+          <h3 class="wrap__ttl">IT資産およびその運用経費を<br class="sp-only">「見える化」する</h3>
+          <div class="wrap__lead">IT資産情報を的確に把握することにより、ハードウェアの配置やソフトウェアライセンス契約数を適正化できます。</div>
+          <div class="flex wrap__box">
+            <figure class="wrap__box--img"><img src="/assets/img/cost/img-group01.svg" alt=""></figure>
+            <summary class="wrap__box--txt">
+              <h4 class="ttl">Wave PC Mateで実現する資産管理の仕組み</h4>
+              <ul class="list">
+                <li></li>
+              </ul>
+            </summary>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="graph bg-LB">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateのコスト削減効果</h2>
+      <div class="lead">クライアントＰＣ１台あたりにかかる１年間のコストを比較してみました。「Wave PC Mate」を導入すると、<br>PCを1500台ご利用の場合、年間約２億５千万円のコスト削減効果があります。</div>
+      <div class="graph__ttl">クライアントPC1台あたりにかかる<br class="sp-only">1年間のコスト比較</div>
+      <div class="scroll">
+        <figure class="graph__img" data-aos="zoom-in"><img src="/assets/img/common/img-graph.svg" alt="Wave PC Mateのコスト削減効果"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="price">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mate の標準サービスは、月額サービス料金のみ！</h2>
+      <div class="lead">機器の購入・管理環境や設備費などの 初期費用やサービス期間満了後の撤去費用がかからず、<br>キャッシュフローを抑制することが可能で、新たなIT投資に寄与します。</div>
+      <div class="price__ttl">月々にかかるコストイメージ比較</div>
+      <div class="scroll">
+        <figure class="price__img" data-aos="zoom-in"><img src="/assets/img/common/img-price.svg" alt="Wave PC Mateのコスト削減効果"></figure>
+      </div>
+      <a href="/contact/" class="more bg-o dl"><span>お問合せ・お見積りはこちら（無料）</span></a>
+    </div>
+  </section>
+
+  <section class="structure">
+    <div class="containers">
+      <h2 class="ttl-secondary">Wave PC Mateのセキュリティ対策の仕組み</h2>
+      <div class="lead">弊社サポートセンターによる事前検証を行った上で、<br>セキュリティーパッチの公開やウイルス定義ファイルの配布を行います。</div>
+      <div class="scroll">
+        <figure class="structure__img" data-aos="zoom-in"><img src="/assets/img/common/img-structure.svg" alt="Wave PC Mateのコスト削減効果"></figure>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+
+
+</main>
+
+{% endblock %}

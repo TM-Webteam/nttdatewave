@@ -1,0 +1,508 @@
+/*
+  ----------------
+  Header
+  ----------------
+*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  transition: all .3s;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  &.hide {
+    transform: translateY(-150px);
+  }
+  @media #{$xl} {
+    font-size: 12px;
+  }
+  .aside {
+    background: #6785C1;
+    @media #{$h-sp} {
+      display: none;
+    }
+    &__logo {
+      padding: 15px 60px;
+      @media #{$xl} {
+        padding: 15px 20px;
+      }
+      img {
+        @media #{$xl} {
+          max-width: 80%;
+        }
+      }
+    }
+    ul {
+      li {
+        &:not(:last-child) {
+          border-right: 1px solid #fff;
+        }
+        a {
+          display: block;
+          color: #fff;
+          text-align: center;
+          padding: 15px;
+          background: #3B486F;
+          width: 240px;
+          @media #{$xl} {
+            width: 200px;
+          }
+          span {
+            padding-left: 40px;
+            position: relative;
+            &::before {
+              content: " ";
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              margin: auto;
+              width: 26px;
+              height: 26px;
+            }
+            &.icon01 {
+              &::before {
+                background: url("../img/common/h-icon01.svg") 50% / contain no-repeat;
+              }
+            }
+            &.icon02 {
+              &::before {
+                background: url("../img/common/h-icon02.svg") 50% / contain no-repeat;
+              }
+            }
+            &.icon03 {
+              &::before {
+                background: url("../img/common/h-icon03.svg") 50% / contain no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .header {
+    background: #fff;
+    &__wrap {
+      @media #{$h-sp} {
+        border-top: 3px solid #6785C1;
+      }
+    }
+    &__logo {
+      padding: 25px 60px;
+      @media #{$xl} {
+        padding: 20px;
+      }
+      @media #{$tab} {
+        padding: 15px;
+      }
+      img {
+        @media #{$xl} {
+          max-width: 80%;
+        }
+      }
+    }
+    &__nav {
+      @media #{$h-sp} {
+        display: none;
+      }
+      li {
+        .item {
+          padding: 30px 30px 25px;
+          border-bottom: 5px solid transparent;
+          @media #{$xl} {
+            padding: 30px 20px;
+          }
+          &:hover {
+            opacity: 1;
+            border-bottom: 5px solid #6785C1;
+            .pull {
+              &::before {
+                transform: rotate(135deg);
+              }
+            }
+          }
+          .pull {
+            position: relative;
+            &::before {
+              content: " ";
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              right: -15px;
+              margin: auto;
+              width: 5px;
+              height: 5px;
+              border: 1px solid;
+              border-color:  transparent transparent #000 #000;
+              transform: rotate(-45deg);
+              transition: all .3s;
+            }
+          }
+        }
+        &.parent {
+          &:hover {
+            .mega {
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+        }
+        .mega {
+          position: absolute;
+          opacity: 0;
+          visibility: hidden;
+          top: 100%;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 100%;
+          background: #fff;
+          transition: all .3s;
+          border: 1px solid #070F26;
+          &__ttl {
+            width: 30%;
+            background: #070F26;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            @media #{$xl} {
+              font-size: 16px;
+            }
+            &.link {
+              span {
+                position: relative;
+                &::after {
+                  content: " ";
+                  position: absolute;
+                  bottom: 0;
+                  top: 0;
+                  left: -30px;
+                  margin: auto;
+                  width: 20px;
+                  height: 20px;
+                  background: url("../img/common/icon-arrow-b.png") 50% / contain no-repeat;
+                  transition: all .3s;
+                }
+              }
+              &:hover {
+                opacity: 1;
+                background: #6785c1;
+              }
+            }
+          }
+          &__nav {
+            width: 70%;
+            padding: 50px 80px;
+            font-size: 18px;
+            font-weight: bold;
+            @media #{$xl} {
+              font-size: 14px;
+              padding: 30px 50px;
+            }
+            &--list {
+              width: calc(100% / 2 - 15px);
+              li {
+                &:not(:last-child) {
+                  margin-bottom: 20px;
+                }
+                a {
+                  display: block;
+                  border-bottom: 1px solid #EEE;
+                  padding-left: 40px;
+                  position: relative;
+                  padding-bottom: 5px;
+                  text-align: left;
+                  &::before {
+                    content: " ";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: auto;
+                    width: 18px;
+                    height: 18px;
+                    background: url("../img/common/icon-arrow.png") 50% / contain no-repeat;
+                    transition: all .3s;
+                  }
+                  &:hover {
+                    opacity: 1;
+                    border-bottom: 1px solid #070F26;
+                    &::before {
+                      left: 10px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.btn {
+          background: #F28900;
+          color: #fff;
+          a {
+            padding: 30px;
+            width: 240px;
+            text-align: center;
+            @media #{$xl} {
+              width: 200px;
+              padding: 30px 20px;
+            }
+            span {
+              padding-left: 40px;
+              position: relative;
+              &::before {
+                content: " ";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+                width: 26px;
+                height: 26px;
+              }
+              
+              &.icon04 {
+                &::before {
+                  background: url("../img/common/h-icon04.svg") 50% / contain no-repeat;
+                }
+              }
+              &.icon05 {
+                &::before {
+                  background: url("../img/common/h-icon05.svg") 50% / contain no-repeat;
+                }
+              }
+            }
+          }
+          &:last-child {
+            background: #000;
+            background: #F29600;
+            border-left: 1px solid #FFF;
+          }
+        }
+      }
+    }
+  }
+
+  #nav-toggle {
+    @media #{$h-sp} {
+      display: block;
+    }
+    @media #{$h-pc} {
+      display: none;
+    }
+    padding: 16px;
+    width: 50px;
+    height: 50px;
+    span {
+      display: block;
+      background: #222;
+      height: 2px;
+      transition: transform 0.5s ease-in-out, top 0.5s ease;
+    }
+    span:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+
+  #gloval-nav {
+    display: none;
+    border-top: 1px solid #070F26;
+    overflow: scroll;
+    color: #fff;
+    ul {
+      font-size: 14px;
+      font-weight: bold;
+      padding: 20px 30px;
+      &.list {
+        background: #fff;
+        color: #070F26;
+        li {
+          border-bottom: 1px solid #070F26;
+          &.child {
+            a {
+              font-size: 12px;
+              padding: 10px 15px 10px 30px;
+            } 
+          }
+          &.ttl {
+            a {
+              padding: 10px 15px 10px 30px;
+            }
+          }
+          &.btn01,&.btn02,&.btn03,&.btn04,&.btn05 {
+            border-bottom: 0;
+            margin-top: 10px;
+            a {
+              text-align: center;
+              color: #fff;
+              background: #f28900;
+              border-radius: 5px;
+              &::before {
+                content: none;
+              }
+              &:not(:last-child) {
+                margin-bottom: 10px;
+              }
+              span {
+                display: inline-block;
+                position: relative;
+                padding: 0 0 0 30px;
+                &::before {
+                  content: " ";
+                  position: absolute;
+                  top: 0;
+                  bottom: 0;
+                  left: 0;
+                  margin: auto;
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+          }
+          &.btn01 {
+            span {
+              &::before {
+                background: url("../img/common/h-icon04.svg") 50% / contain no-repeat;
+              }
+            }
+          }
+          &.btn02 {
+            span {
+              &::before {
+                background: url("../img/common/h-icon05.svg") 50% / contain no-repeat;
+              }
+            }
+          }
+          &.btn03 {
+            border-bottom: 0;
+            margin-top: 10px;
+            a {
+              background: #3b486f;
+              span {
+                &::before {
+                  background: url("../img/common/h-icon01.svg") 50% / contain no-repeat;
+                }
+              }
+            }
+          }
+          &.btn04 {
+            border-bottom: 0;
+            margin-top: 10px;
+            a {
+              background: #3b486f;
+              span {
+                &::before {
+                  background: url("../img/common/h-icon02.svg") 50% / contain no-repeat;
+                }
+              }
+            }
+          }
+          &.btn05 {
+            border-bottom: 0;
+            margin-top: 10px;
+            a {
+              background: #3b486f;
+              span {
+                &::before {
+                  background: url("../img/common/h-icon03.svg") 50% / contain no-repeat;
+                }
+              }
+            }
+          }
+          a,span {
+            display: block;
+            padding: 10px 0;
+            position: relative;
+            &::before {
+              content: " ";
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              margin: auto;
+              width: 20px;
+              height: 20px;
+              background: url("../img/common/icon-arrow.png") 50% / contain no-repeat;
+            }
+          }
+          span {
+            &::before {
+              content: none;
+            }
+          }
+        }
+      }
+      &.aside {
+        li {
+          border-bottom: 1px solid #fff;
+          .dl-btn {
+            display: block;
+            padding: 10px;
+            background: #FF7800;
+            color: #fff;
+            height: 50px;
+            @media #{$sp} {
+              margin-top: 15px;
+            }
+            span {
+              line-height: 1.28;
+            }
+            &.mail {
+              padding: 12px 10px;
+              
+              span {
+                padding-left: 40px;
+                &::before {
+                  width: 26px;
+                  height: 19px;
+                  background: url("../img/common/icon-mail.svg") 50% / contain no-repeat;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .other {
+      background: #6785c1;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  &.open {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    #nav-toggle {
+      position: relative;
+      span {
+        background: #222;
+      }
+      span:first-child {
+        transform: rotate(45deg);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 27px;
+      }
+      span:nth-child(2) {
+        display: none;
+      }
+      span:last-child {
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 27px;
+      }
+    }
+  } 
+}
