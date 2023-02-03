@@ -208,9 +208,9 @@ $(document).ready(function() {
 
 $(window).on('scroll', function () {
   if (1060 < $(this).scrollTop()) {
-    $('.sidenav__bnr').addClass('sticky');
+    $('.sidenav-wrap').addClass('sticky');
   } else {
-    $('.sidenav__bnr').removeClass('sticky');
+    $('.sidenav-wrap').removeClass('sticky');
   }
 });
 

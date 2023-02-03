@@ -2098,3 +2098,59 @@
     }
   }
 }
+
+.speech {
+  text-align: center;
+  span {
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    @media #{$sp} {
+      font-size: 14px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1.5em;
+      bottom: 10px;
+      display: inline-block;
+      margin-right: 3px;
+      width: 20px;
+      height: 1px;
+      background-color: #333;
+      transform: rotate(60deg);
+      vertical-align: 0.3em;
+      @media #{$sp} {
+        width: 15px;
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      right: -1.5em;
+      bottom: 10px;
+      display: inline-block;
+      margin-left: 3px;
+      width: 20px;
+      height: 1px;
+      background-color: #333;
+      transform: rotate(-60deg);
+      vertical-align: 0.3em;
+      @media #{$sp} {
+        width: 15px;
+      }
+    }
+    &.cW {
+      color: #fff;
+      &::before {
+        background-color: #fff;
+      }
+      &::after {
+        background-color: #fff;
+      }
+    }
+  }
+}

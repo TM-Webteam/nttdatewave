@@ -36,12 +36,15 @@ global $right_wp_bnr;
   <?php if (!empty($right_wp_bnr)) : ?>
     <?php foreach ($right_wp_bnr as $right_wp_bnr_val) :
     ?>
+    <div class="sidenav-wrap">
+      <div class="speech"><span><?php echo CFS()->get('right_wp_ttl'); ?></span></div>
       <a href="<?php echo get_permalink($right_wp_bnr_val); ?>" class="sidenav__bnr">
         <div class="sidenav__bnr--ttl"><?php echo get_the_title($right_wp_bnr_val); ?></div>
         <div class="sidenav__bnr--img">
           <img src="<?php echo get_the_post_thumbnail_url($right_wp_bnr_val, 'medium'); ?>" alt="<?php echo get_the_title($right_wp_bnr_val); ?>">
         </div>
       </a>
+    </div>
     <?php endforeach; ?>
   <?php endif; ?>
 

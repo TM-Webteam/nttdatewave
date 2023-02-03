@@ -46,6 +46,9 @@
         td {
           textarea {
             height: 100px;
+            &[name="division_only"] {
+              height: 40px;
+            }
           }
           .half {
             input[type="text"] {

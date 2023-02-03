@@ -25,12 +25,11 @@
     letter-spacing: .01em;
     color: #070707;
     border-bottom: 2px solid #6785c1;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 5px 0 5px 50px;
     position: relative;
     @media #{$sp} {
       font-size: 16px;
-      margin-bottom: 15px;
       padding: 5px 0 5px 40px;
     }
     &::before {
@@ -55,20 +54,15 @@
     border: 5px solid #6785c1;
     background: #fff;
     border-radius: 20px;
-    padding: 30px;
+    padding: 15px 15px 15px 20px;
     @media #{$sp} {
       padding: 15px;
       border: 3px solid #6785c1;
       margin: 20px 0;
     }
-    &:hover {
-      opacity: 1;
-      dl {
-        color: #6785c1;
-      }
-    }
+    
     figure {
-      width: 25%;
+      width: 15%;
       @media #{$sp} {
         width: 85%;
         margin: 0 auto 15px;
@@ -79,7 +73,7 @@
       }
     }
     dl {
-      width: calc(100% - 25% - 40px);
+      width: calc(100% - 15% - 20px);
       transition: all .3s;
       @media #{$sp} {
         width: 100%;
@@ -87,10 +81,9 @@
       dt {
         font-size: 22px;
         font-weight: bold;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         @media #{$sp} {
           font-size: 16px;
-          margin-bottom: 10px;
         } 
       }
       dd {
@@ -183,6 +176,9 @@
     &--img {
 
     }
+  }
+
+  .sidenav-wrap {
     &.sticky {
       position: sticky;
       top: 150px;
