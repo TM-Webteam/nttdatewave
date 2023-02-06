@@ -39,6 +39,7 @@ global $right_wp_bnr;
     <div class="sidenav-wrap">
       <div class="speech"><span><?php echo CFS()->get('right_wp_ttl'); ?></span></div>
       <a href="<?php echo get_permalink($right_wp_bnr_val); ?>" class="sidenav__bnr">
+        <div class="sidenav__bnr--had">【お役立ち資料】</div>
         <div class="sidenav__bnr--ttl"><?php echo get_the_title($right_wp_bnr_val); ?></div>
         <div class="sidenav__bnr--img">
           <img src="<?php echo get_the_post_thumbnail_url($right_wp_bnr_val, 'medium'); ?>" alt="<?php echo get_the_title($right_wp_bnr_val); ?>">

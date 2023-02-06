@@ -162,15 +162,25 @@
       width: 85%;
       margin: 0 auto 15px;
     }
+    &--had {
+      color: #070f26;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      line-height: 1.5;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
     &--ttl {
       color: #070f26;
       font-size: 18px;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       line-height: 1.5;
       @media #{$sp} {
         font-size: 16px;
-        margin-bottom: 15px;
       }
     }
     &--img {
@@ -179,6 +189,9 @@
   }
 
   .sidenav-wrap {
+    position: relative;
+    top: 0;
+    transition: all .5s;
     &.sticky {
       position: sticky;
       top: 150px;

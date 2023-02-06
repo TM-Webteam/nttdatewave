@@ -207,7 +207,7 @@ $(document).ready(function() {
 //--------------------------------------
 
 $(window).on('scroll', function () {
-  if (1060 < $(this).scrollTop()) {
+  if (900 < $(this).scrollTop()) {
     $('.sidenav-wrap').addClass('sticky');
   } else {
     $('.sidenav-wrap').removeClass('sticky');
