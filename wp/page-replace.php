@@ -7,11 +7,11 @@
       <div class="ttl-secondary cW"><span>Wave PC Mateが解決できる課題</span></div>
       <h1 class="ttl-primary-s lower">
         <p class="wave"><span>P</span><span>C</span><span>の</span><span>リ</span><span>プ</span><span>レ</span><span>イ</span><span>ス</span><span>を</span><span>予</span><span>定</span><span>し</span><span>て</span><span>い</span><span>る</span><span>が</span></p>
-        <p class="wave"><span>セ</span><span>ッ</span><span>ト</span><span>ア</span><span>ッ</span><span>プ</span><span>が</span><span>大</span><span>変</span><span>…</span></p>
+        <p class="wave"><span>キ</span><span>ッ</span><span>テ</span><span>ィ</span><span>ン</span><span>グ</span><span>が</span><span>大</span><span>変</span><span>…</span></p>
       </h1>
       <div class="flex jcC aiC hero-lower__box">
-        <figure class="hero-lower__img" data-aos="fade"><img src="<?php echo assets_path() ?>img/common/img-hero-lower02.svg" alt="PCのリプレイスを予定しているがセットアップが大変…"></figure>
-        <summary class="hero-lower__txt">PCのリプレイス時期がそろそろだが、リプレイス台数が多く、セットアップが間に合わない…一時的な資金調達も避けたい。何か良い方法はないでしょうか？</summary>
+        <figure class="hero-lower__img" data-aos="fade"><img src="<?php echo assets_path() ?>img/common/img-hero-lower02.svg" alt="PCのリプレイスを予定しているがキッティングが大変…"></figure>
+        <summary class="hero-lower__txt">PCのリプレイス時期がそろそろだが、リプレイス台数が多く、キッティングが間に合わない…一時的な資金調達も避けたい。何か良い方法はないでしょうか？</summary>
       </div>
     </div>
   </section>
@@ -19,7 +19,7 @@
   <section class="roundBtn">
     <div class="containers">
       <a href="/catalog/" class="roundBtn__wrap" data-aos="fade-up">
-        <div class="roundBtn__wrap--outer"><span>独自ツールでセットアップ作業を自動化！<br><b>解決</b>のための方法が<b>3分</b>でわかる！</span></div>
+        <div class="roundBtn__wrap--outer"><span>独自ツールでキッティング作業を自動化！<br><b>解決</b>のための方法が<b>3分</b>でわかる！</span></div>
         <div class="more bg-o dl"><span><small>Wave PC Mateサービス資料</small><br>無料ダウンロードはこちら</span></div>
         <div class="roundBtn__wrap--sidebar">お申込み後、リアルタイムでお送りいたします！</div>
       </a>
