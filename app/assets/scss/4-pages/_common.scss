@@ -823,6 +823,7 @@
   &__time {
     font-size: 14px;
     margin-bottom: 30px;
+    text-align: right;
     @media #{$sp} {
       font-size: 12px;
       margin-bottom: 15px;
