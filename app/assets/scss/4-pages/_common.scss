@@ -516,6 +516,9 @@
 }
 
 .pagination {
+  .screen-reader-text {
+    display: none;
+  }
   .nav-links {
     display: flex;
     flex-wrap: wrap;
